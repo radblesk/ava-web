@@ -1,4 +1,9 @@
 {
+  "metadata": {
+    "title": "Ava for Reddit – A Modern, Native Reddit Client for iOS",
+    "description": "Ava is a fast, clean, and fully native Reddit client for iOS, focused on performance, privacy, and a distraction-free experience.",
+    "keywords": "Ava Reddit client,iOS Reddit app,Reddit iOS client,modern Reddit app,alternative Reddit app,privacy focused Reddit app,native iOS Reddit app,SwiftUI Reddit client,fast Reddit app,clean Reddit interface,Reddit reader,iPhone Reddit app"
+  },
   "homepage": {
     "title": "Ava for Reddit"
   }

@@ -1,5 +1,9 @@
-
 {
+  "metadata": {
+    "title": "Ava pro Reddit – Moderní nativní Reddit klient pro iOS",
+    "description": "Ava je rychlý, čistý a plně nativní Reddit klient pro iOS se zaměřením na výkon, soukromí a nerušený zážitek.",
+    "keywords": "Ava Reddit klient,Reddit aplikace iOS,Reddit klient pro iPhone,moderní Reddit aplikace,nativní iOS Reddit aplikace,SwiftUI Reddit klient,rychlá Reddit aplikace,čisté rozhraní Redditu,alternativa Reddit aplikace,Reddit čtečka"
+  },
   "homepage": {
     "title": "Ava for Reddit"
   }
