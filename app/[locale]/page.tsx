@@ -7,10 +7,10 @@ export default function Home() {
   const t = useTranslations("homepage");
 
   return (
-    <div className="flex min-h-screen select-none overflow-y-auto items-center justify-center bg-zinc-100 font-sans dark:bg-zinc-950">
-      <main className="flex relative h-svh min-h-fit w-full max-w-3xl flex-col items-center justify-between sm:justify-center sm:gap-20 gap-10 py-12 lg:py-32 px-16">
+    <div className="flex min-h-screen items-center justify-center overflow-y-auto bg-zinc-100 font-sans select-none dark:bg-zinc-950">
+      <main className="relative flex h-svh min-h-fit w-full max-w-3xl flex-col items-center justify-between gap-10 px-16 py-12 sm:justify-center sm:gap-20 lg:py-32">
         <Image
-          className="dark:invert fixed inset-6 lg:top-6 lg:left-1/3 z-20 mix-blend-difference"
+          className="fixed inset-6 z-20 mix-blend-difference invert lg:top-6 lg:left-1/3"
           src="/monogram-dark.svg"
           alt="Ava logo"
           width={48}
@@ -18,7 +18,7 @@ export default function Home() {
           priority
         />
         <Image
-          className="dark:hidden block z-10"
+          className="z-10 block dark:hidden"
           src="/icon-light.png"
           alt="Ava logo"
           width={100}
@@ -26,25 +26,25 @@ export default function Home() {
           priority
         />
         <Image
-          className="dark:block hidden z-10"
+          className="z-10 hidden dark:block"
           src="/icon-dark.png"
           alt="Ava logo"
           width={100}
           height={100}
           priority
         />
-        <div className="flex z-10 flex-col items-center gap-6 text-center">
-          <h1 className="max-w-xs text-3xl font-semibold leading-10 tracking-tight text-black dark:text-zinc-50">
+        <div className="z-10 flex flex-col items-center gap-6 text-center">
+          <h1 className="max-w-xs text-3xl leading-10 font-semibold tracking-tight text-black dark:text-zinc-50">
             {t("headline")}
           </h1>
-          <p className="max-w-md text-lg leading-6 sm:leading-7 text-zinc-600 dark:text-zinc-400">
+          <p className="max-w-md text-lg leading-6 text-zinc-600 sm:leading-7 dark:text-zinc-400">
             {t("subheadline")}
           </p>
         </div>
 
         <div className="flex flex-col gap-2">
           <p className="text-zinc-400">{t("compatibility.headline")}</p>
-          <div className="flex relative gap-2">
+          <div className="relative flex gap-2">
             <CompatibilityCard
               symbol="iphone11"
               alt="iPhone 11 symbol"
@@ -63,12 +63,12 @@ export default function Home() {
             />
           </div>
 
-          <p className="text-zinc-400 pt-2 text-xs">
+          <p className="pt-2 text-xs text-zinc-400">
             *{t("compatibility.footer")}
           </p>
         </div>
 
-        <div className="flex z-10 justify-center flex-wrap max-w-sm sm:max-w-lg gap-4 text-base font-medium">
+        <div className="z-10 flex max-w-sm flex-wrap justify-center gap-4 text-base font-medium sm:max-w-lg">
           <Button
             title="TestFlight"
             url=""
@@ -98,9 +98,9 @@ export default function Home() {
           />
         </div>
 
-        <div className="w-full border-t border-foreground/20"></div>
+        <div className="border-foreground/20 w-full border-t"></div>
 
-        <div className="flex flex-col items-center text-center gap-12">
+        <div className="flex flex-col items-center gap-12 text-center">
           <div className="flex gap-2">
             <p>&copy; {new Date().getFullYear()}</p>
             <a
