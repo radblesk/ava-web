@@ -18,7 +18,7 @@ export default function Button({
 }: Props) {
   return (
     <a
-      className={`group border-foreground/10 bg-foreground/75 text-background flex h-12 w-full items-center justify-center gap-2 overflow-hidden rounded-full border px-5 transition will-change-transform md:w-39.5 ${disabled ? "cursor-not-allowed opacity-50" : "cursor-pointer hover:scale-105 hover:bg-sky-400 hover:text-black dark:hover:bg-sky-600 dark:hover:text-white"}`}
+      className={`group border-foreground/10 bg-foreground/75 text-background flex h-12 w-full items-center justify-center gap-2 overflow-hidden rounded-full border px-5 transition will-change-transform md:w-39.5 ${disabled ? "cursor-not-allowed opacity-50" : "cursor-pointer hover:bg-sky-400 hover:text-black motion-safe:hover:scale-105 dark:hover:bg-sky-600 dark:hover:text-white"}`}
       href={disabled ? undefined : url}
       aria-disabled={disabled}
       target="_blank"
