@@ -23,6 +23,21 @@ const geistMono = Geist_Mono({
   subsets: ["latin"],
 });
 
+// Helpers
+const ogLocaleMap: Record<string, string> = {
+  en: "en_US",
+  sk: "sk_SK",
+  cs: "cs_CZ",
+  es: "es_ES",
+  de: "de_DE",
+  fr: "fr_FR",
+  pt: "pt_BR",
+  zh: "zh_CN",
+  ja: "ja_JP",
+  ko: "ko_KR",
+  ru: "ru_RU",
+};
+
 // MARK: - Metadata
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   // Detect locale from params and get translations for metadata
@@ -35,9 +50,17 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     alternates: {
       canonical: `/${locale}`,
       languages: {
-        "cs-CZ": "/cz",
+        "cs-CZ": "/cs",
+        "de-DE": "/de",
         "en-US": "/en",
+        "es-ES": "/es",
+        "fr-FR": "/fr",
+        "ja-JP": "/ja",
+        "ko-KR": "/ko",
+        "pt-BR": "/pt",
+        "ru-RU": "/ru",
         "sk-SK": "/sk",
+        "zh-CN": "/zh",
       },
     },
     title: {
@@ -74,7 +97,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
           height: 1600,
         },
       ],
-      locale: locale === "sk" ? "sk_SK" : locale === "cz" ? "cs_CZ" : "en_US",
+      locale: ogLocaleMap[locale] || "en_US",
       type: "website",
     },
 
@@ -111,7 +134,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   };
 }
 
-export default async function RootLayout({ children, params }: Props) {
+export default async function LocaleLayout({ children, params }: Props) {
   const { locale } = await params;
   const t = await getTranslations({ locale, namespace: "metadata" });
   if (!hasLocale(routing.locales, locale)) {

@@ -4,7 +4,27 @@
     "description": "Ava is a fast, clean, and fully native Reddit client for iOS, focused on performance, privacy, and a distraction-free experience.",
     "keywords": "Ava Reddit client,iOS Reddit app,Reddit iOS client,modern Reddit app,alternative Reddit app,privacy focused Reddit app,native iOS Reddit app,SwiftUI Reddit client,fast Reddit app,clean Reddit interface,Reddit reader,iPhone Reddit app"
   },
+  "notFound": {
+    "title": "Oops! Ava Lost This Page",
+    "description": "Looks like this page doesn’t exist… or Ava zoomed it somewhere else.",
+    "cta": "Take Me Home",
+    "locale": "en"
+  },
   "homepage": {
-    "title": "Ava for Reddit"
+    "headline": "Ava for Reddit (beta)",
+    "subheadline": "Ava is a fully native Reddit client for iOS, inspired by the best of Apollo and built from the ground up with Swift and SwiftUI. Every detail is handcrafted to feel fast, clean, and unmistakably iOS. Ava focuses on what matters most: speed, privacy, deep customizability, and a polished user experience — without tracking, data collection, or compromises.",
+    "compatibility": {
+      "headline": "Supported devices:",
+      "atLaunch": "At Launch",
+      "later": "Later",
+      "footer": "Compatible with iOS/iPadOS/watchOS 26 and newer"
+    },
+    "buttons": {
+      "inDev": "In Development",
+      "developer": "Developer"
+    },
+    "footer": {
+      "appleTrademark": "Apple TV, Apple Watch, iPad, iPad Air, iPhone, iPod, and iPod touch are trademarks of Apple Inc., registered in the U.S. and other countries."
+    }
   }
 }

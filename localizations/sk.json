@@ -1,10 +1,30 @@
 {
   "metadata": {
-    "title": "Ava pre Reddit – Moderný natívny Reddit klient pre iOS",
-    "description": "Ava je rýchly, čistý a plne natívny Reddit klient pre iOS so zameraním na výkon, súkromie a nerušený zážitok.",
-    "keywords": "Ava Reddit klient,Reddit aplikácia iOS,Reddit klient pre iPhone,moderná Reddit aplikácia,natívna iOS Reddit aplikácia,SwiftUI Reddit klient,rýchla Reddit aplikácia,čisté rozhranie Redditu,alternatíva Reddit aplikácie,Reddit čítačka"
+    "title": "Ava pre Reddit – Moderný, nativný Reddit klient pre iOS",
+    "description": "Ava je rýchly, čistý a plne nativný Reddit klient pre iOS, zameraný na výkon, súkromie a nerušené používanie.",
+    "keywords": "Ava Reddit klient,iOS Reddit aplikácia,Reddit iOS klient,moderná Reddit aplikácia,alternatívny Reddit klient,súkromný Reddit klient,nativný iOS Reddit klient,SwiftUI Reddit klient,rýchla Reddit aplikácia,čisté Reddit rozhranie,Reddit čítačka,iPhone Reddit aplikácia"
+  },
+  "notFound": {
+    "title": "Ups! Ava Stratila Túto Stránku",
+    "description": "Vyzerá to, že táto stránka neexistuje… alebo Ava ju niekam odletela.",
+    "cta": "Späť Domov",
+    "locale": "sk"
   },
   "homepage": {
-    "title": "Ava for Reddit"
+    "headline": "Ava pre Reddit (beta)",
+    "subheadline": "Ava je plne nativný Reddit klient pre iOS, inšpirovaný tým najlepším z Apollo a vytvorený od základu so Swift a SwiftUI. Každý detail je ručne vypracovaný tak, aby pôsobil rýchlo, čisto a typicky pre iOS. Ava sa zameriava na to, čo je najdôležitejšie: rýchlosť, súkromie, hlboká prispôsobiteľnosť a precízne používateľské prostredie — bez sledovania, zbierania dát alebo kompromisov.",
+    "compatibility": {
+      "headline": "Podporované zariadenia:",
+      "atLaunch": "Pri spustení",
+      "later": "Neskôr",
+      "footer": "Kompatibilné s iOS/iPadOS/watchOS 26 a novšími"
+    },
+    "buttons": {
+      "inDev": "Vo vývoji",
+      "developer": "Developer"
+    },
+    "footer": {
+      "appleTrademark": "Apple TV, Apple Watch, iPad, iPad Air, iPhone, iPod a iPod touch sú ochranné známky spoločnosti Apple Inc., registrované v USA a iných krajinách."
+    }
   }
 }

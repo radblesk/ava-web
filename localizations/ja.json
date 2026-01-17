@@ -1,0 +1,30 @@
+{
+  "metadata": {
+    "title": "Ava for Reddit – iOS向けモダンなネイティブRedditクライアント",
+    "description": "Avaは高速でクリーン、完全ネイティブのiOS用Redditクライアントで、パフォーマンス、プライバシー、気が散らない体験に重点を置いています。",
+    "keywords": "Ava Reddit client,iOS Redditアプリ,Reddit iOSクライアント,モダンRedditアプリ,代替Redditアプリ,プライバシー重視Redditアプリ,ネイティブiOS Redditクライアント,SwiftUI Reddit client,高速Redditアプリ,クリーンRedditインターフェイス,Redditリーダー,iPhone Redditアプリ"
+  },
+  "notFound": {
+    "title": "おっと！Avaがこのページを見つけられませんでした",
+    "description": "このページは存在しないか…Avaがどこかに飛ばしてしまったようです。",
+    "cta": "ホームに戻る",
+    "locale": "ja"
+  },
+  "homepage": {
+    "headline": "Ava for Reddit（ベータ）",
+    "subheadline": "Avaは完全ネイティブのiOS用Redditクライアントで、Apolloの最高の部分に触発され、SwiftとSwiftUIでゼロから構築されています。すべてのディテールは高速でクリーン、そして典型的なiOSらしさを感じられるよう手作業で設計されています。Avaは重要なことに焦点を当てています：速度、プライバシー、高度なカスタマイズ、洗練されたユーザー体験 — トラッキングなし、データ収集なし、妥協なし。",
+    "compatibility": {
+      "headline": "対応デバイス：",
+      "atLaunch": "リリース時",
+      "later": "後で",
+      "footer": "iOS/iPadOS/watchOS 26 以降に対応"
+    },
+    "buttons": {
+      "inDev": "開発中",
+      "developer": "開発者"
+    },
+    "footer": {
+      "appleTrademark": "Apple TV、Apple Watch、iPad、iPad Air、iPhone、iPod、および iPod touch は、Apple Inc. の米国およびその他の国における登録商標です。"
+    }
+  }
+}
