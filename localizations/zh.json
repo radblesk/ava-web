@@ -1,0 +1,30 @@
+{
+  "metadata": {
+    "title": "Ava for Reddit – 现代 iOS 原生 Reddit 客户端",
+    "description": "Ava 是一个快速、干净且完全原生的 iOS Reddit 客户端，专注于性能、隐私和无干扰体验。",
+    "keywords": "Ava Reddit 客户端,iOS Reddit 应用,Reddit iOS 客户端,现代 Reddit 应用,替代 Reddit 应用,隐私为主 Reddit 应用,原生 iOS Reddit 客户端,SwiftUI Reddit 客户端,快速 Reddit 应用,干净 Reddit 界面,Reddit 阅读器,iPhone Reddit 应用"
+  },
+  "notFound": {
+    "title": "哎呀！Ava 找不到此页面",
+    "description": "看起来此页面不存在…或者 Ava 把它传送到别的地方了。",
+    "cta": "回到首页",
+    "locale": "zh"
+  },
+  "homepage": {
+    "headline": "Ava for Reddit (测试版)",
+    "subheadline": "Ava 是一个完全原生的 iOS Reddit 客户端，灵感来源于 Apollo 的精华，并使用 Swift 和 SwiftUI 从零构建。每个细节都经过精心打磨，确保快速、干净，并且具有典型的 iOS 风格。Ava 专注于最重要的内容：速度、隐私、深度自定义和精致的用户体验 — 无跟踪、无数据收集，也无妥协。",
+    "compatibility": {
+      "headline": "支持的设备：",
+      "atLaunch": "上线时",
+      "later": "之后",
+      "footer": "兼容 iOS/iPadOS/watchOS 26 及更新版本"
+    },
+    "buttons": {
+      "inDev": "开发中",
+      "developer": "开发者"
+    },
+    "footer": {
+      "appleTrademark": "Apple TV、Apple Watch、iPad、iPad Air、iPhone、iPod 和 iPod touch 是 Apple Inc. 的注册商标，在美国及其他国家注册。"
+    }
+  }
+}

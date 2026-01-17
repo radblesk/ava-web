@@ -1,0 +1,30 @@
+{
+  "metadata": {
+    "title": "Ava pro Reddit – Moderní, nativní Reddit klient pro iOS",
+    "description": "Ava je rychlý, čistý a plně nativní Reddit klient pro iOS, zaměřený na výkon, soukromí a nerušené používání.",
+    "keywords": "Ava Reddit klient,iOS Reddit aplikace,Reddit iOS klient,moderní Reddit aplikace,alternativní Reddit klient,soukromý Reddit klient,nativní iOS Reddit klient,SwiftUI Reddit klient,rychlá Reddit aplikace,čisté Reddit rozhraní,Reddit čtečka,iPhone Reddit aplikace"
+  },
+  "notFound": {
+    "title": "Ups! Ava Ztratila Tuto Stránku",
+    "description": "Vypadá to, že tato stránka neexistuje… nebo Ava ji někam odletěla.",
+    "cta": "Domů",
+    "locale": "cs"
+  },
+  "homepage": {
+    "headline": "Ava pro Reddit (beta)",
+    "subheadline": "Ava je plně nativní Reddit klient pro iOS, inspirovaný tím nejlepším z Apollo a vytvořený od základu se Swift a SwiftUI. Každý detail je ručně vypracovaný tak, aby působil rychle, čistě a typicky pro iOS. Ava se zaměřuje na to, co je nejdůležitější: rychlost, soukromí, hluboká přizpůsobitelnost a precizní uživatelský zážitek — bez sledování, sběru dat nebo kompromisů.",
+    "compatibility": {
+      "headline": "Podporovaná zařízení:",
+      "atLaunch": "Při spuštění",
+      "later": "Později",
+      "footer": "Kompatibilní s iOS/iPadOS/watchOS 26 a novějšími"
+    },
+    "buttons": {
+      "inDev": "Ve vývoji",
+      "developer": "Vývojář"
+    },
+    "footer": {
+      "appleTrademark": "Apple TV, Apple Watch, iPad, iPad Air, iPhone, iPod a iPod touch jsou ochranné známky společnosti Apple Inc., registrované v USA a dalších zemích."
+    }
+  }
+}
