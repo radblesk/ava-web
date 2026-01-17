@@ -16,14 +16,15 @@
     "compatibility": {
       "headline": "支持的设备：",
       "atLaunch": "上线时",
-      "later": "之后",
-      "footer": "兼容 iOS/iPadOS/watchOS 26 及更新版本"
+      "later": "2026 年末",
+      "footer": "兼容 iOS/iPadOS/watchOS/macOS/visionOS 26 及更新版本"
     },
     "buttons": {
       "inDev": "开发中",
       "developer": "开发者"
     },
     "footer": {
+      "reserved": "版权所有。",
       "appleTrademark": "Apple TV、Apple Watch、iPad、iPad Air、iPhone、iPod 和 iPod touch 是 Apple Inc. 的注册商标，在美国及其他国家注册。"
     }
   }

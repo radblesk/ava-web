@@ -16,14 +16,15 @@
     "compatibility": {
       "headline": "対応デバイス：",
       "atLaunch": "リリース時",
-      "later": "後で",
-      "footer": "iOS/iPadOS/watchOS 26 以降に対応"
+      "later": "2026年後半",
+      "footer": "iOS/iPadOS/watchOS/macOS/visionOS 26 以降に対応"
     },
     "buttons": {
       "inDev": "開発中",
       "developer": "開発者"
     },
     "footer": {
+      "reserved": "無断転載禁止。",
       "appleTrademark": "Apple TV、Apple Watch、iPad、iPad Air、iPhone、iPod、および iPod touch は、Apple Inc. の米国およびその他の国における登録商標です。"
     }
   }

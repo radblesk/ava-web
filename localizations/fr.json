@@ -16,14 +16,15 @@
     "compatibility": {
       "headline": "Appareils compatibles :",
       "atLaunch": "Au lancement",
-      "later": "Plus tard",
-      "footer": "Compatible avec iOS/iPadOS/watchOS 26 et versions ultérieures"
+      "later": "Fin 2026",
+      "footer": "Compatible avec iOS/iPadOS/watchOS/macOS/visionOS 26 et versions ultérieures"
     },
     "buttons": {
       "inDev": "En développement",
       "developer": "Développeur"
     },
     "footer": {
+      "reserved": "Tous droits réservés.",
       "appleTrademark": "Apple TV, Apple Watch, iPad, iPad Air, iPhone, iPod et iPod touch sont des marques déposées d’Apple Inc., enregistrées aux États-Unis et dans d’autres pays."
     }
   }
