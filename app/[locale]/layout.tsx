@@ -6,6 +6,7 @@ import { routing } from "@/i18n/routing";
 import { notFound } from "next/navigation";
 import { getTranslations } from "next-intl/server";
 import { Analytics } from "@vercel/analytics/next";
+import Navbar from "@/components/Navbar";
 
 // Types
 type Props = {
@@ -186,8 +187,9 @@ export default async function LocaleLayout({ children, params }: Props) {
         />
       </head>
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
+        className={`${geistSans.variable} ${geistMono.variable} bg-zinc-100 font-sans antialiased select-none dark:bg-zinc-950`}
       >
+        <Navbar />
         <NextIntlClientProvider>{children}</NextIntlClientProvider>
         <Analytics />
       </body>
