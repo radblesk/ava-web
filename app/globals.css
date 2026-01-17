@@ -20,7 +20,11 @@
 }
 
 body {
-  background: var(--background);
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
+}
+
+nav {
+  padding-right: calc(env(safe-area-inset-right) + 0.85rem);
+  padding-left: calc(env(safe-area-inset-left) + 0.85rem);
 }
