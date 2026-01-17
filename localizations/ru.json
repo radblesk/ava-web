@@ -16,14 +16,15 @@
     "compatibility": {
       "headline": "Поддерживаемые устройства:",
       "atLaunch": "При запуске",
-      "later": "Позже",
-      "footer": "Совместимо с iOS/iPadOS/watchOS 26 и новее"
+      "later": "Конец 2026 года",
+      "footer": "Совместимо с iOS/iPadOS/watchOS/macOS/visionOS 26 и новее"
     },
     "buttons": {
       "inDev": "В разработке",
       "developer": "Разработчик"
     },
     "footer": {
+      "reserved": "Все права защищены.",
       "appleTrademark": "Apple TV, Apple Watch, iPad, iPad Air, iPhone, iPod и iPod touch являются товарными знаками Apple Inc., зарегистрированными в США и других странах."
     }
   }

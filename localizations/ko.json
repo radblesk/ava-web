@@ -16,14 +16,15 @@
     "compatibility": {
       "headline": "지원 기기:",
       "atLaunch": "출시 시",
-      "later": "나중에",
-      "footer": "iOS/iPadOS/watchOS 26 이상 호환"
+      "later": "2026년 말",
+      "footer": "iOS/iPadOS/watchOS/macOS/visionOS 26 이상 호환"
     },
     "buttons": {
       "inDev": "개발 중",
       "developer": "개발자"
     },
     "footer": {
+      "reserved": "판권 소유.",
       "appleTrademark": "Apple TV, Apple Watch, iPad, iPad Air, iPhone, iPod 및 iPod touch는 Apple Inc.의 미국 및 기타 국가에서 등록된 상표입니다."
     }
   }

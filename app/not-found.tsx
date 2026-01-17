@@ -7,11 +7,11 @@ export default function NotFound() {
 
   return (
     <LocaleLayout params={Promise.resolve({ locale: t("locale") })}>
-      <div className="relative flex h-svh max-h-screen w-screen items-center justify-center bg-zinc-100 dark:bg-zinc-950 p-10">
-        <div className="flex relative flex-col items-center gap-10">
+      <div className="relative flex h-svh max-h-screen w-screen items-center justify-center bg-zinc-100 p-10 dark:bg-zinc-950">
+        <div className="relative flex flex-col items-center gap-10">
           <div className="flex items-center select-none">
             <p className="text-5xl font-black md:text-7xl">404</p>
-            <div className="ml-4 border-sky-600 border-l pl-4">
+            <div className="ml-4 border-l border-sky-600 pl-4">
               <h2 className="text-2xl font-semibold md:text-3xl">
                 {t("title")}
               </h2>

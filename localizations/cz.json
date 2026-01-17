@@ -16,14 +16,15 @@
     "compatibility": {
       "headline": "Podporovaná zařízení:",
       "atLaunch": "Při spuštění",
-      "later": "Později",
-      "footer": "Kompatibilní s iOS/iPadOS/watchOS 26 a novějšími"
+      "later": "Konec roku 2026",
+      "footer": "Kompatibilní s iOS/iPadOS/watchOS/macOS/visionOS 26 a novějšími"
     },
     "buttons": {
       "inDev": "Ve vývoji",
       "developer": "Vývojář"
     },
     "footer": {
+      "reserved": "Všechna práva vyhrazena.",
       "appleTrademark": "Apple TV, Apple Watch, iPad, iPad Air, iPhone, iPod a iPod touch jsou ochranné známky společnosti Apple Inc., registrované v USA a dalších zemích."
     }
   }
