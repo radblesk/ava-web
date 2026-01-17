@@ -1,4 +1,4 @@
-import type { Metadata } from "next";
+import type { Metadata, Viewport } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import "@/app/globals.css";
 import { hasLocale, NextIntlClientProvider } from "next-intl";
@@ -37,6 +37,19 @@ const ogLocaleMap: Record<string, string> = {
   ko: "ko_KR",
   ru: "ru_RU",
 };
+
+// MARK: - Viewport
+export function generateViewport(): Viewport {
+  return {
+    themeColor: "black",
+    colorScheme: "dark",
+    width: "device-width",
+    initialScale: 1,
+    maximumScale: 1,
+    viewportFit: "cover",
+    userScalable: true,
+  };
+}
 
 // MARK: - Metadata
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
