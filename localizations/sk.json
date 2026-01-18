@@ -1,31 +1,63 @@
 {
   "metadata": {
-    "title": "Ava pre Reddit – Moderný, nativný Reddit klient pre iOS",
-    "description": "Ava je rýchly, čistý a plne nativný Reddit klient pre iOS, zameraný na výkon, súkromie a nerušené používanie.",
-    "keywords": "Ava Reddit klient,iOS Reddit aplikácia,Reddit iOS klient,moderná Reddit aplikácia,alternatívny Reddit klient,súkromný Reddit klient,nativný iOS Reddit klient,SwiftUI Reddit klient,rýchla Reddit aplikácia,čisté Reddit rozhranie,Reddit čítačka,iPhone Reddit aplikácia"
+    "title": "Ava pre Reddit – Moderný natívny klient Redditu pre iOS",
+    "description": "Ava je rýchly, prehľadný a plne natívny klient Redditu pre iOS zameraný na výkon, súkromie a prostredie bez rozptyľovania.",
+    "keywords": "Ava Reddit klient,iOS Reddit aplikácia,Reddit iOS klient,moderná Reddit aplikácia,alternatívna Reddit aplikácia,Reddit aplikácia zameraná na súkromie,natívna iOS Reddit aplikácia,SwiftUI Reddit klient,rýchla Reddit aplikácia,prehľadné Reddit rozhraní,Reddit čítačka,iPhone Reddit aplikácia"
   },
   "notFound": {
-    "title": "Ups! Ava Stratila Túto Stránku",
-    "description": "Vyzerá to, že táto stránka neexistuje… alebo ju Ava niekam odniesla.",
-    "cta": "Späť Domov",
+    "title": "Ups! Ava stratila túto stránku",
+    "description": "Vyzerá to tak, že táto stránka neexistuje… alebo ju Ava presunula niekam inam.",
+    "cta": "Späť domov",
     "locale": "sk"
   },
   "homepage": {
-    "headline": "Ava pre Reddit (beta)",
-    "subheadline": "Ava je plne nativný Reddit klient pre iOS, inšpirovaný tým najlepším z Apollo a vytvorený od základu so Swift a SwiftUI. Každý detail je ručne vypracovaný tak, aby pôsobil rýchlo, čisto a typicky pre iOS. Ava sa zameriava na to, čo je najdôležitejšie: rýchlosť, súkromie, hlboká prispôsobiteľnosť a precízne používateľské prostredie — bez sledovania, zbierania dát alebo kompromisov.",
-    "compatibility": {
-      "headline": "Podporované zariadenia:",
-      "atLaunch": "Pri spustení",
-      "later": "Koniec roka 2026",
-      "footer": "Kompatibilné s iOS/iPadOS/watchOS/macOS/visionOS 26 a novšími"
+    "navbar": {
+      "inDev": "Vo vývoji"
     },
+    "hero": {
+      "headline": "Ava pre Reddit <super>(beta)</super>",
+      "subheadline": "Ava je <highlighted>plne natívny klient Redditu pre iOS</highlighted>, inšpirovaný <highlighted>tým najlepším z Apolla</highlighted> a vytvorený od základov pomocou <highlighted>Swiftu a SwiftUI</highlighted>. Každý detail je starostlivo vytvorený tak, aby pôsobil rýchlo, čisto a <highlighted>nezameniteľne ako iOS</highlighted>. Ava sa zameriava na to najdôležitejšie: rýchlosť, súkromie, rozsiahlu prispôsobiteľnosť a vybrusené používateľské prostredie — <highlighted>bez sledovania, zbierania dát alebo kompromisov.</highlighted>"
+    },
+    "compatibility": {
+      "headline": "Dostupné na:",
+      "atLaunch": "Čoskoro",
+      "later": "Koniec roku 2026",
+      "footer": "Minimálna podporovaná verzia je iOS 26 a novšia"
+    },
+    "notice": "Ava je <bold>aktívne vyvíjaná</bold> a <bold>zatiaľ nie je open-source</bold>. Momentálne čakám na odpoveď ohľadom mojej žiadosti o podmienky využitia API od Redditu. Dovtedy <highlighted>zostáva odkaz na TestFlight vypnutý</highlighted>.",
     "buttons": {
-      "inDev": "Vo vývoji",
-      "developer": "Developer"
+      "testflight": {
+        "title": "TestFlight",
+        "symbol": "fan",
+        "link": "stop looking for the link",
+        "alt": "Tlačidlo TestFlight",
+        "disabled": "true"
+      },
+      "subreddit": {
+        "title": "r/AvaApp",
+        "symbol": "reddit",
+        "link": "https://www.reddit.com/r/AvaApp",
+        "alt": "Tlačidlo Subreddit",
+        "disabled": "false"
+      },
+      "github": {
+        "title": "GitHub",
+        "symbol": "github",
+        "link": "https://github.com/radblesk/",
+        "alt": "Tlačidlo GitHub",
+        "disabled": "false"
+      },
+      "developer": {
+        "title": "Vývojár",
+        "symbol": "monogram-dark",
+        "link": "https://www.radobley.sk",
+        "alt": "Tlačidlo webovej stránky vývojára",
+        "disabled": "false"
+      }
     },
     "footer": {
       "reserved": "Všetky práva vyhradené.",
-      "appleTrademark": "Apple TV, Apple Watch, iPad, iPad Air, iPhone, iPod a iPod touch sú ochranné známky spoločnosti Apple Inc., registrované v USA a iných krajinách."
+      "appleTrademark": "Apple TV, Apple Watch, iPad, iPad Air, iPhone, iPod a iPod touch sú ochranné známky spoločnosti Apple Inc., registrované v USA a ďalších krajinách."
     }
   }
 }

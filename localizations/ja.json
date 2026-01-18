@@ -1,31 +1,63 @@
 {
   "metadata": {
     "title": "Ava for Reddit – iOS向けモダンなネイティブRedditクライアント",
-    "description": "Avaは高速でクリーン、完全ネイティブのiOS用Redditクライアントで、パフォーマンス、プライバシー、気が散らない体験に重点を置いています。",
-    "keywords": "Ava Reddit client,iOS Redditアプリ,Reddit iOSクライアント,モダンRedditアプリ,代替Redditアプリ,プライバシー重視Redditアプリ,ネイティブiOS Redditクライアント,SwiftUI Reddit client,高速Redditアプリ,クリーンRedditインターフェイス,Redditリーダー,iPhone Redditアプリ"
+    "description": "Avaは、パフォーマンス、プライバシー、集中できる体験に焦点を当てた、高速でクリーンな完全ネイティブのiOS向けRedditクライアントです。",
+    "keywords": "Ava Redditクライアント,iOS Redditアプリ,Reddit iOSクライアント,モダンなRedditアプリ,代替Redditアプリ,プライバシー重視Redditアプリ,ネイティブiOS Redditアプリ,SwiftUI Redditクライアント,高速Redditアプリ,クリーンなRedditインターフェース,Redditリーダー,iPhone Redditアプリ"
   },
   "notFound": {
-    "title": "おっと！Avaがこのページを見つけられませんでした",
-    "description": "このページは存在しないか…Avaがどこかに飛ばしてしまったようです。",
+    "title": "おっと!Avaがこのページを見失いました",
+    "description": "このページは存在しないか、Avaが別の場所に移動したようです。",
     "cta": "ホームに戻る",
     "locale": "ja"
   },
   "homepage": {
-    "headline": "Ava for Reddit（ベータ）",
-    "subheadline": "Avaは完全ネイティブのiOS用Redditクライアントで、Apolloの最高の部分に触発され、SwiftとSwiftUIでゼロから構築されています。すべてのディテールは高速でクリーン、そして典型的なiOSらしさを感じられるよう手作業で設計されています。Avaは重要なことに焦点を当てています：速度、プライバシー、高度なカスタマイズ、洗練されたユーザー体験 — トラッキングなし、データ収集なし、妥協なし。",
-    "compatibility": {
-      "headline": "対応デバイス：",
-      "atLaunch": "リリース時",
-      "later": "2026年後半",
-      "footer": "iOS/iPadOS/watchOS/macOS/visionOS 26 以降に対応"
+    "navbar": {
+      "inDev": "開発中"
     },
+    "hero": {
+      "headline": "Ava for Reddit <super>(ベータ版)</super>",
+      "subheadline": "Avaは、<highlighted>Apolloの優れた部分</highlighted>にインスパイアされ、<highlighted>SwiftとSwiftUI</highlighted>で一から構築された<highlighted>完全ネイティブのiOS向けRedditクライアント</highlighted>です。すべての細部が、高速でクリーン、そして<highlighted>間違いなくiOSらしい</highlighted>と感じられるよう丁寧に作られています。Avaは最も重要なことに焦点を当てています:速度、プライバシー、深いカスタマイズ性、そして洗練されたユーザー体験 — <highlighted>トラッキング、データ収集、妥協は一切ありません。</highlighted>"
+    },
+    "compatibility": {
+      "headline": "利用可能なプラットフォーム:",
+      "atLaunch": "近日公開",
+      "later": "2026年後半",
+      "footer": "最小サポートバージョンはiOS 26以降です"
+    },
+    "notice": "Avaは<bold>積極的に開発中</bold>で、<bold>現在はオープンソースではありません</bold>。現在、RedditへのAPI利用規約に関するリクエストの返答を待っている状態です。それまでの間、<highlighted>TestFlightリンクは無効のままです</highlighted>。",
     "buttons": {
-      "inDev": "開発中",
-      "developer": "開発者"
+      "testflight": {
+        "title": "TestFlight",
+        "symbol": "fan",
+        "link": "stop looking for the link",
+        "alt": "TestFlightボタン",
+        "disabled": "true"
+      },
+      "subreddit": {
+        "title": "r/AvaApp",
+        "symbol": "reddit",
+        "link": "https://www.reddit.com/r/AvaApp",
+        "alt": "Subredditボタン",
+        "disabled": "false"
+      },
+      "github": {
+        "title": "GitHub",
+        "symbol": "github",
+        "link": "https://github.com/radblesk/",
+        "alt": "GitHubボタン",
+        "disabled": "false"
+      },
+      "developer": {
+        "title": "開発者",
+        "symbol": "monogram-dark",
+        "link": "https://www.radobley.sk",
+        "alt": "開発者ウェブサイトボタン",
+        "disabled": "false"
+      }
     },
     "footer": {
-      "reserved": "無断転載禁止。",
-      "appleTrademark": "Apple TV、Apple Watch、iPad、iPad Air、iPhone、iPod、および iPod touch は、Apple Inc. の米国およびその他の国における登録商標です。"
+      "reserved": "無断転載を禁じます。",
+      "appleTrademark": "Apple TV、Apple Watch、iPad、iPad Air、iPhone、iPod、iPod touchは、米国および他の国々で登録されたApple Inc.の商標です。"
     }
   }
 }

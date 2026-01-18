@@ -1,0 +1,63 @@
+{
+  "metadata": {
+    "title": "Ava dla Reddita – Nowoczesny, natywny klient Reddita na iOS",
+    "description": "Ava to szybki, przejrzysty i w pełni natywny klient Reddita na iOS, skupiony na wydajności, prywatności i doświadczeniu bez rozpraszaczy.",
+    "keywords": "Ava klient Reddit,aplikacja Reddit iOS,klient Reddit iOS,nowoczesna aplikacja Reddit,alternatywna aplikacja Reddit,aplikacja Reddit skupiona na prywatności,natywna aplikacja Reddit iOS,klient Reddit SwiftUI,szybka aplikacja Reddit,przejrzysty interfejs Reddit,czytnik Reddit,aplikacja Reddit iPhone"
+  },
+  "notFound": {
+    "title": "Ups! Ava zgubiła tę stronę",
+    "description": "Wygląda na to, że ta strona nie istnieje… albo Ava przeniosła ją gdzieś indziej.",
+    "cta": "Zabierz mnie do domu",
+    "locale": "pl"
+  },
+  "homepage": {
+    "navbar": {
+      "inDev": "W fazie rozwoju"
+    },
+    "hero": {
+      "headline": "Ava dla Reddita <super>(beta)</super>",
+      "subheadline": "Ava to <highlighted>w pełni natywny klient Reddita na iOS</highlighted>, zainspirowany <highlighted>tym, co najlepsze w Apollo</highlighted> i zbudowany od podstaw przy użyciu <highlighted>Swift i SwiftUI</highlighted>. Każdy szczegół został starannie wykonany, aby działał szybko, czysto i <highlighted>bezspornie w stylu iOS</highlighted>. Ava skupia się na tym, co najważniejsze: szybkości, prywatności, rozbudowanej personalizacji i dopracowanym doświadczeniu użytkownika — <highlighted>bez śledzenia, zbierania danych czy kompromisów.</highlighted>"
+    },
+    "compatibility": {
+      "headline": "Dostępne na:",
+      "atLaunch": "Wkrótce",
+      "later": "Koniec 2026",
+      "footer": "Minimalna obsługiwana wersja to iOS 26 i nowsze"
+    },
+    "notice": "Ava jest <bold>aktywnie rozwijana</bold> i <bold>nie jest obecnie open-source</bold>. Obecnie czekam na odpowiedź dotyczącą mojego wniosku o warunki korzystania z API Reddita. Do tego czasu <highlighted>link do TestFlight pozostaje wyłączony</highlighted>.",
+    "buttons": {
+      "testflight": {
+        "title": "TestFlight",
+        "symbol": "fan",
+        "link": "stop looking for the link",
+        "alt": "Przycisk TestFlight",
+        "disabled": "true"
+      },
+      "subreddit": {
+        "title": "r/AvaApp",
+        "symbol": "reddit",
+        "link": "https://www.reddit.com/r/AvaApp",
+        "alt": "Przycisk Subreddit",
+        "disabled": "false"
+      },
+      "github": {
+        "title": "GitHub",
+        "symbol": "github",
+        "link": "https://github.com/radblesk/",
+        "alt": "Przycisk GitHub",
+        "disabled": "false"
+      },
+      "developer": {
+        "title": "Deweloper",
+        "symbol": "monogram-dark",
+        "link": "https://www.radobley.sk",
+        "alt": "Przycisk strony dewelopera",
+        "disabled": "false"
+      }
+    },
+    "footer": {
+      "reserved": "Wszelkie prawa zastrzeżone.",
+      "appleTrademark": "Apple TV, Apple Watch, iPad, iPad Air, iPhone, iPod i iPod touch są znakami towarowymi Apple Inc., zarejestrowanymi w USA i innych krajach."
+    }
+  }
+}

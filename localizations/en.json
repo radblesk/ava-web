@@ -6,22 +6,54 @@
   },
   "notFound": {
     "title": "Oops! Ava Lost This Page",
-    "description": "Looks like this page doesn’t exist… or Ava zoomed it somewhere else.",
+    "description": "Looks like this page doesn't exist… or Ava moved it somewhere else.",
     "cta": "Take Me Home",
     "locale": "en"
   },
   "homepage": {
-    "headline": "Ava for Reddit (beta)",
-    "subheadline": "Ava is a fully native Reddit client for iOS, inspired by the best of Apollo and built from the ground up with Swift and SwiftUI. Every detail is handcrafted to feel fast, clean, and unmistakably iOS. Ava focuses on what matters most: speed, privacy, deep customizability, and a polished user experience — without tracking, data collection, or compromises.",
-    "compatibility": {
-      "headline": "Supported devices:",
-      "atLaunch": "At Launch",
-      "later": "Late 2026",
-      "footer": "Compatible with iOS/iPadOS/watchOS/macOS/visionOS 26 and newer"
+    "navbar": {
+      "inDev": "In Development"
     },
+    "hero": {
+      "headline": "Ava for Reddit <super>(beta)</super>",
+      "subheadline": "Ava is a <highlighted>fully native Reddit client for iOS</highlighted>, inspired by the <highlighted>best of Apollo</highlighted> and built from the ground up with <highlighted>Swift and SwiftUI</highlighted>. Every detail is handcrafted to feel fast, clean, and <highlighted>unmistakably iOS</highlighted>. Ava focuses on what matters most: speed, privacy, deep customizability, and a polished user experience — <highlighted>without tracking, data collection, or compromises.</highlighted>"
+    },
+    "compatibility": {
+      "headline": "Available on:",
+      "atLaunch": "Soon",
+      "later": "Late 2026",
+      "footer": "Minimum supported version is iOS 26 and newer"
+    },
+    "notice": "Ava is in <bold>active development</bold> and <bold>is not open-source (for now)</bold>. I am currently waiting for a follow-up on my API usage terms request to Reddit. Until then, the <highlighted>TestFlight link stays disabled</highlighted>.",
     "buttons": {
-      "inDev": "In Development",
-      "developer": "Developer"
+      "testflight": {
+        "title": "TestFlight",
+        "symbol": "fan",
+        "link": "stop looking for the link",
+        "alt": "TestFlight Button",
+        "disabled": "true"
+      },
+      "subreddit": {
+        "title": "r/AvaApp",
+        "symbol": "reddit",
+        "link": "https://www.reddit.com/r/AvaApp",
+        "alt": "Subreddit Button",
+        "disabled": "false"
+      },
+      "github": {
+        "title": "GitHub",
+        "symbol": "github",
+        "link": "https://github.com/radblesk/",
+        "alt": "GitHub Button",
+        "disabled": "false"
+      },
+      "developer": {
+        "title": "Developer",
+        "symbol": "monogram-dark",
+        "link": "https://www.radobley.sk",
+        "alt": "Developer Website Button",
+        "disabled": "false"
+      }
     },
     "footer": {
       "reserved": "All Rights Reserved.",
