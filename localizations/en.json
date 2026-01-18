@@ -14,6 +14,11 @@
     "navbar": {
       "inDev": "In Development"
     },
+    "headers": {
+      "features": "showcase",
+      "resources": "resources",
+      "footer": "footer"
+    },
     "hero": {
       "headline": "Ava for Reddit <super>(beta)</super>",
       "subheadline": "Ava is a <highlighted>fully native Reddit client for iOS</highlighted>, inspired by the <highlighted>best of Apollo</highlighted> and built from the ground up with <highlighted>Swift and SwiftUI</highlighted>. Every detail is handcrafted to feel fast, clean, and <highlighted>unmistakably iOS</highlighted>. Ava focuses on what matters most: speed, privacy, deep customizability, and a polished user experience — <highlighted>without tracking, data collection, or compromises.</highlighted>"
@@ -23,6 +28,16 @@
       "atLaunch": "Soon",
       "later": "Late 2026",
       "footer": "Minimum supported version is 26 and newer"
+    },
+    "features": {
+      "feature1": {
+        "headline": "Your Reddit, Your Way",
+        "description": "Customize what other apps won't let you touch. Pick your <highlighted>themes</highlighted>, tweak post spacing and padding, hide voting buttons if they're in your way. Want subreddit info at the top? Bottom? Done. Switch between <highlighted>full and compact styles</highlighted> whenever you feel like it.<br></br><br></br><highlighted>Filter out the noise:</highlighted> block users completely, filter by keywords in titles or flairs, hide entire subreddits from your feeds. See only what you want to see."
+      },
+      "feature2": {
+        "headline": "Built Native, Feels Different",
+        "description": "No lag, no waiting—just <highlighted>smooth, instant responses</highlighted> that keep up with how fast you scroll. Native Swift means everything feels fluid and alive. Generous spacing, bigger media, <highlighted>colored depth indicators</highlighted> so you never lose track of comment threads. Full iPad support with proper split view. It just works the way you'd expect it to."
+      }
     },
     "notice": "Ava is in <bold>active development</bold> and <bold>is not open-source (for now)</bold>. I am currently waiting for a follow-up on my API usage terms request to Reddit. Until then, the <highlighted>TestFlight link stays disabled</highlighted>.",
     "buttons": {
@@ -56,6 +71,7 @@
       }
     },
     "footer": {
+      "affiliate": "Ava is an independent third-party client and is not affiliated with, endorsed by, or connected to Reddit, Inc.",
       "reserved": "All Rights Reserved.",
       "appleTrademark": "Apple TV, Apple Watch, iPad, iPad Air, iPhone, iPod, and iPod touch are trademarks of Apple Inc., registered in the U.S. and other countries."
     }

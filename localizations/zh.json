@@ -1,12 +1,12 @@
 {
   "metadata": {
-    "title": "Ava for Reddit – 现代原生的 iOS Reddit 客户端",
-    "description": "Ava 是一款快速、简洁且完全原生的 iOS Reddit 客户端,专注于性能、隐私和无干扰的体验。",
+    "title": "Ava for Reddit – 现代化原生 iOS Reddit 客户端",
+    "description": "Ava 是一款快速、简洁且完全原生的 iOS Reddit 客户端，专注于性能、隐私和无干扰的使用体验。",
     "keywords": "Ava Reddit 客户端,iOS Reddit 应用,Reddit iOS 客户端,现代 Reddit 应用,替代 Reddit 应用,注重隐私的 Reddit 应用,原生 iOS Reddit 应用,SwiftUI Reddit 客户端,快速 Reddit 应用,简洁 Reddit 界面,Reddit 阅读器,iPhone Reddit 应用"
   },
   "notFound": {
-    "title": "哎呀!Ava 找不到这个页面了",
-    "description": "看起来这个页面不存在……或者 Ava 把它移到别处了。",
+    "title": "哎呀！Ava 找不到这个页面了",
+    "description": "看起来这个页面不存在……或者 Ava 把它移到别的地方了。",
     "cta": "返回首页",
     "locale": "zh-CN"
   },
@@ -14,17 +14,32 @@
     "navbar": {
       "inDev": "开发中"
     },
+    "headers": {
+      "features": "功能特性",
+      "resources": "资源",
+      "footer": "页脚"
+    },
     "hero": {
       "headline": "Ava for Reddit <super>(测试版)</super>",
-      "subheadline": "Ava 是一款<highlighted>完全原生的 iOS Reddit 客户端</highlighted>,灵感来自<highlighted>Apollo 的精华</highlighted>,使用 <highlighted>Swift 和 SwiftUI</highlighted> 从零打造。每个细节都经过精心设计,力求快速、简洁且<highlighted>纯正的 iOS 风格</highlighted>。Ava 专注于最重要的方面:速度、隐私、深度定制和精致的用户体验——<highlighted>没有追踪、没有数据收集、没有妥协。</highlighted>"
+      "subheadline": "Ava 是一款<highlighted>完全原生的 iOS Reddit 客户端</highlighted>，灵感来自 <highlighted>Apollo 的精华</highlighted>，使用 <highlighted>Swift 和 SwiftUI</highlighted> 从零打造。每个细节都经过精心雕琢，力求快速、简洁，并<highlighted>彻底展现 iOS 风格</highlighted>。Ava 专注于最重要的东西：速度、隐私、深度定制和精致的用户体验——<highlighted>不跟踪、不收集数据、不妥协。</highlighted>"
     },
     "compatibility": {
-      "headline": "可用平台:",
+      "headline": "支持平台：",
       "atLaunch": "即将推出",
-      "later": "2026 年底",
+      "later": "2026年底",
       "footer": "最低支持版本为 26 及更高版本"
     },
-    "notice": "Ava 正在<bold>积极开发中</bold>,且<bold>暂未开源</bold>。我目前正在等待 Reddit 关于 API 使用条款请求的回复。在此之前,<highlighted>TestFlight 链接将保持禁用状态</highlighted>。",
+    "features": {
+      "feature1": {
+        "headline": "你的 Reddit，你说了算",
+        "description": "自定义其他应用不让你碰的设置。选择你的<highlighted>主题</highlighted>，调整帖子间距和边距，不喜欢投票按钮就隐藏它。想把 subreddit 信息放在上面？还是下面？随你。随时在<highlighted>完整样式和紧凑样式</highlighted>之间切换。<br></br><br></br><highlighted>过滤噪音：</highlighted>彻底屏蔽用户，根据标题或标签中的关键词过滤，从信息流中隐藏整个 subreddit。只看你想看的内容。"
+      },
+      "feature2": {
+        "headline": "原生开发，体验不同",
+        "description": "没有卡顿，没有等待——只有<highlighted>流畅、即时的响应</highlighted>，跟得上你的滚动速度。原生 Swift 意味着一切都流畅而生动。宽敞的间距，更大的媒体预览，<highlighted>彩色深度指示器</highlighted>让你永远不会在评论串中迷失。完整支持 iPad 的分屏视图，不是简单拉伸。就是你期待的样子。"
+      }
+    },
+    "notice": "Ava 正在<bold>积极开发中</bold>，<bold>暂未开源</bold>。我目前正在等待 Reddit 关于 API 使用条款申请的回复。在此之前，<highlighted>TestFlight 链接保持禁用状态</highlighted>。",
     "buttons": {
       "testflight": {
         "title": "TestFlight",
@@ -56,8 +71,9 @@
       }
     },
     "footer": {
+      "affiliate": "Ava 是独立的第三方客户端，与 Reddit, Inc. 没有任何关联、背书或连接。",
       "reserved": "保留所有权利。",
-      "appleTrademark": "Apple TV、Apple Watch、iPad、iPad Air、iPhone、iPod 和 iPod touch 是 Apple Inc. 在美国和其他国家/地区的注册商标。"
+      "appleTrademark": "Apple TV、Apple Watch、iPad、iPad Air、iPhone、iPod 和 iPod touch 是 Apple Inc. 在美国和其他国家的注册商标。"
     }
   }
 }

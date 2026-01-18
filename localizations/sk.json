@@ -1,12 +1,12 @@
 {
   "metadata": {
-    "title": "Ava pre Reddit – Moderný natívny Reddit klient pre iOS",
-    "description": "Ava je rýchly, prehľadný a plne natívny Reddit klient pre iOS zameraný na výkon, súkromie a prostredie bez rozptyľovania.",
-    "keywords": "Ava Reddit klient,iOS Reddit aplikácia,Reddit iOS klient,moderná Reddit aplikácia,alternatívna Reddit aplikácia,Reddit aplikácia zameraná na súkromie,natívna iOS Reddit aplikácia,SwiftUI Reddit klient,rýchla Reddit aplikácia,prehľadné Reddit rozhraní,Reddit čítačka,iPhone Reddit aplikácia"
+    "title": "Ava for Reddit – Moderný, natívny Reddit klient pre iOS",
+    "description": "Ava je rýchly, čistý a plne natívny Reddit klient pre iOS, zameraný na výkon, súkromie a nerušený zážitok.",
+    "keywords": "Ava Reddit klient,iOS Reddit aplikácia,Reddit iOS klient,moderná Reddit aplikácia,alternatívna Reddit aplikácia,Reddit aplikácia zameraná na súkromie,natívna iOS Reddit aplikácia,SwiftUI Reddit klient,rýchla Reddit aplikácia,čisté Reddit rozhraní,Reddit čítačka,iPhone Reddit aplikácia"
   },
   "notFound": {
-    "title": "Ups! Ava stratila túto stránku",
-    "description": "Vyzerá to tak, že táto stránka neexistuje… alebo ju Ava presunula niekam inam.",
+    "title": "Joj! Ava stratila túto stránku",
+    "description": "Vyzerá to, že táto stránka neexistuje… alebo ju Ava presunula niekam inam.",
     "cta": "Späť domov",
     "locale": "sk"
   },
@@ -14,17 +14,32 @@
     "navbar": {
       "inDev": "Vo vývoji"
     },
+    "headers": {
+      "features": "ukážka",
+      "resources": "zdroje",
+      "footer": "pätička"
+    },
     "hero": {
-      "headline": "Ava pre Reddit <super>(beta)</super>",
-      "subheadline": "Ava je <highlighted>plne natívny Reddit klient pre iOS</highlighted>, inšpirovaný <highlighted>tým najlepším z Apolla</highlighted> a vytvorený od základov pomocou <highlighted>Swiftu a SwiftUI</highlighted>. Každý detail je starostlivo vytvorený tak, aby pôsobil rýchlo, čisto a <highlighted>nezameniteľne ako iOS</highlighted>. Ava sa zameriava na to najdôležitejšie: rýchlosť, súkromie, rozsiahlu prispôsobiteľnosť a vybrúsené používateľské prostredie — <highlighted>bez sledovania, zbierania dát a bez kompromisov.</highlighted>"
+      "headline": "Ava for Reddit <super>(beta)</super>",
+      "subheadline": "Ava je <highlighted>plne natívny Reddit klient pre iOS</highlighted>, inšpirovaný <highlighted>tým najlepším z Apolla</highlighted> a vytvorený od základu pomocou <highlighted>Swiftu a SwiftUI</highlighted>. Každý detail je ručne vytvorený tak, aby pôsobil rýchlo, čisto a <highlighted>nezameniteľne iOS</highlighted>. Ava sa zameriava na to, na čom záleží najviac: rýchlosť, súkromie, rozsiahlu prispôsobiteľnosť a vybrúsený užívateľský zážitok — <highlighted>bez sledovania, zberu dát alebo kompromisov.</highlighted>"
     },
     "compatibility": {
       "headline": "Dostupné na:",
       "atLaunch": "Čoskoro",
-      "later": "Koniec roku 2026",
-      "footer": "Minimálna podporovaná verzia je 26 a novšia"
+      "later": "Koniec roka 2026",
+      "footer": "Minimálna podporovaná verzia je 26 a novšie"
     },
-    "notice": "Ava je <bold>aktívne vyvíjaná</bold> a <bold>zatiaľ nie je open-source</bold>. Momentálne čakám na odpoveď ohľadom mojej žiadosti o podmienky využitia API od Redditu. Dovtedy <highlighted>zostáva odkaz na TestFlight vypnutý</highlighted>.",
+    "features": {
+      "feature1": {
+        "headline": "Váš Reddit, váš spôsob",
+        "description": "Prispôsobte si, čo iné aplikácie nedovolia meniť. Vyberte si <highlighted>témy</highlighted>, upravte rozostupy a odsadenie príspevkov, skryte tlačidlá na hlasovanie, keď vám prekážajú. Chcete info o subreddite hore? Dole? Hotovo. Prepínajte medzi <highlighted>plným a kompaktným štýlom</highlighted>, kedykoľvek sa vám zachce.<br></br><br></br><highlighted>Odfiltrujte šum:</highlighted> úplne zablokujte používateľov, filtrujte podľa kľúčových slov v názvoch alebo flairoch, skryte celé subreddity zo svojich feedov. Vidíte len to, co chcete vidieť."
+      },
+      "feature2": {
+        "headline": "Natívna aplikácia robí rozdiel",
+        "description": "Žiadne spomalenie, žiadne čakanie—len <highlighted>plynulé, okamžité odozvy</highlighted>, ktoré držia krok s tým, ako rýchlo scrollujete. Natívny Swift znamená, že všetko pôsobí plynulo a živo. Štedrá medzera, väčšie médiá, <highlighted>farebné indikátory hĺbky</highlighted>, takže nikdy nestratíte prehľad o vláknach komentárov. Plná podpora iPadu s poriadnym split view. Proste to funguje tak, ako by ste očakávali."
+      }
+    },
+    "notice": "Ava je v <bold>aktívnom vývoji</bold> a <bold>nie je open-source (zatiaľ)</bold>. Momentálne čakám na odpoveď ohľadom mojej žiadosti o podmienky používania API od Redditu. Do tej doby <highlighted>zostáva odkaz na TestFlight vypnutý</highlighted>.",
     "buttons": {
       "testflight": {
         "title": "TestFlight",
@@ -51,11 +66,12 @@
         "title": "Vývojár",
         "symbol": "monogram-dark",
         "link": "https://www.radobley.sk",
-        "alt": "Tlačidlo webovej stránky vývojára",
+        "alt": "Tlačidlo stránky vývojára",
         "disabled": "false"
       }
     },
     "footer": {
+      "affiliate": "Ava je nezávislý klient tretej strany a nie je nijak spojená, podporovaná ani prepojená s Reddit, Inc.",
       "reserved": "Všetky práva vyhradené.",
       "appleTrademark": "Apple TV, Apple Watch, iPad, iPad Air, iPhone, iPod a iPod touch sú ochranné známky spoločnosti Apple Inc., registrované v USA a ďalších krajinách."
     }

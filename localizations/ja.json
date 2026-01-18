@@ -1,8 +1,8 @@
 {
   "metadata": {
-    "title": "Ava for Reddit – iOS向けモダンなネイティブRedditクライアント",
-    "description": "Avaは、パフォーマンス、プライバシー、集中できる体験に焦点を当てた、高速でクリーンな完全ネイティブのiOS向けRedditクライアントです。",
-    "keywords": "Ava Redditクライアント,iOS Redditアプリ,Reddit iOSクライアント,モダンなRedditアプリ,代替Redditアプリ,プライバシー重視Redditアプリ,ネイティブiOS Redditアプリ,SwiftUI Redditクライアント,高速Redditアプリ,クリーンなRedditインターフェース,Redditリーダー,iPhone Redditアプリ"
+    "title": "Ava for Reddit – iOS向けモダンでネイティブなRedditクライアント",
+    "description": "Avaは、パフォーマンス、プライバシー、そして気が散らない体験に焦点を当てた、高速でクリーンな完全ネイティブのiOS向けRedditクライアントです。",
+    "keywords": "Ava Redditクライアント,iOS Redditアプリ,Reddit iOSクライアント,モダンなRedditアプリ,代替Redditアプリ,プライバシー重視のRedditアプリ,ネイティブiOS Redditアプリ,SwiftUI Redditクライアント,高速Redditアプリ,クリーンなRedditインターフェース,Redditリーダー,iPhone Redditアプリ"
   },
   "notFound": {
     "title": "おっと!Avaがこのページを見失いました",
@@ -14,17 +14,32 @@
     "navbar": {
       "inDev": "開発中"
     },
+    "headers": {
+      "features": "機能",
+      "resources": "リソース",
+      "footer": "フッター"
+    },
     "hero": {
       "headline": "Ava for Reddit <super>(ベータ版)</super>",
-      "subheadline": "Avaは、<highlighted>Apolloの優れた部分</highlighted>にインスパイアされ、<highlighted>SwiftとSwiftUI</highlighted>で一から構築された<highlighted>完全ネイティブのiOS向けRedditクライアント</highlighted>です。すべての細部が、高速でクリーン、そして<highlighted>間違いなくiOSらしい</highlighted>と感じられるよう丁寧に作られています。Avaは最も重要なことに焦点を当てています:速度、プライバシー、深いカスタマイズ性、そして洗練されたユーザー体験 — <highlighted>トラッキング、データ収集、妥協は一切ありません。</highlighted>"
+      "subheadline": "Avaは、<highlighted>Apolloの優れた点</highlighted>から着想を得て、<highlighted>SwiftとSwiftUI</highlighted>でゼロから作られた<highlighted>完全ネイティブなiOS向けRedditクライアント</highlighted>です。すべての細部が丁寧に作り込まれ、高速でクリーン、そして<highlighted>紛れもなくiOSらしい</highlighted>体験を実現します。Avaが大切にしているのは、スピード、プライバシー、細かなカスタマイズ性、そして洗練されたユーザー体験—<highlighted>トラッキングもデータ収集も妥協も一切ありません。</highlighted>"
     },
     "compatibility": {
-      "headline": "利用可能なプラットフォーム:",
+      "headline": "対応プラットフォーム:",
       "atLaunch": "近日公開",
       "later": "2026年後半",
-      "footer": "最小サポートバージョンは 26以降です"
+      "footer": "最小対応バージョンは26以降です"
     },
-    "notice": "Avaは<bold>積極的に開発中</bold>で、<bold>現在はオープンソースではありません</bold>。現在、RedditへのAPI利用規約に関するリクエストの返答を待っている状態です。それまでの間、<highlighted>TestFlightリンクは無効のままです</highlighted>。",
+    "features": {
+      "feature1": {
+        "headline": "あなたのReddit、あなたのスタイルで",
+        "description": "他のアプリでは触れない部分まで自由にカスタマイズ。<highlighted>テーマ</highlighted>を選び、投稿の間隔や余白を調整し、邪魔なら投票ボタンを非表示に。サブレディット情報を上に表示?下に表示?お好みのままに。<highlighted>フルスタイルとコンパクトスタイル</highlighted>をいつでも切り替え可能。<br></br><br></br><highlighted>ノイズをフィルタリング:</highlighted>ユーザーを完全にブロック、タイトルやフレアのキーワードでフィルタ、フィード全体から特定のサブレディットを非表示に。見たいものだけを表示します。"
+      },
+      "feature2": {
+        "headline": "ネイティブ設計だから、体感が違う",
+        "description": "ラグもなく、待ち時間もなく—ただ<highlighted>スムーズで即座のレスポンス</highlighted>が、あなたのスクロール速度についてきます。ネイティブSwiftだからこそ、すべてが滑らかで生き生きと動きます。ゆとりのある間隔、大きなメディアプレビュー、<highlighted>色分けされた階層インジケーター</highlighted>でコメントツリーを見失うことはありません。iPadでは本格的なスプリットビューに完全対応。期待通りに、ただ動きます。"
+      }
+    },
+    "notice": "Avaは<bold>現在開発中</bold>で、<bold>オープンソースではありません(今のところ)</bold>。現在、RedditへのAPI利用規約に関するリクエストの返答待ちです。それまで<highlighted>TestFlightリンクは無効</highlighted>のままとなります。",
     "buttons": {
       "testflight": {
         "title": "TestFlight",
@@ -37,7 +52,7 @@
         "title": "r/AvaApp",
         "symbol": "reddit",
         "link": "https://www.reddit.com/r/AvaApp",
-        "alt": "Subredditボタン",
+        "alt": "サブレディットボタン",
         "disabled": "false"
       },
       "github": {
@@ -56,8 +71,9 @@
       }
     },
     "footer": {
-      "reserved": "無断転載を禁じます。",
-      "appleTrademark": "Apple TV、Apple Watch、iPad、iPad Air、iPhone、iPod、iPod touchは、米国および他の国々で登録されたApple Inc.の商標です。"
+      "affiliate": "Avaは独立したサードパーティクライアントであり、Reddit, Inc.との提携、承認、関連は一切ありません。",
+      "reserved": "全著作権所有。",
+      "appleTrademark": "Apple TV、Apple Watch、iPad、iPad Air、iPhone、iPod、iPod touchは、米国およびその他の国で登録されたApple Inc.の商標です。"
     }
   }
 }
