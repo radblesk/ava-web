@@ -22,7 +22,7 @@
       "headline": "Available on:",
       "atLaunch": "Soon",
       "later": "Late 2026",
-      "footer": "Minimum supported version is iOS 26 and newer"
+      "footer": "Minimum supported version is 26 and newer"
     },
     "notice": "Ava is in <bold>active development</bold> and <bold>is not open-source (for now)</bold>. I am currently waiting for a follow-up on my API usage terms request to Reddit. Until then, the <highlighted>TestFlight link stays disabled</highlighted>.",
     "buttons": {

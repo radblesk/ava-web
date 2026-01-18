@@ -22,7 +22,7 @@
       "headline": "可用平台:",
       "atLaunch": "即将推出",
       "later": "2026 年底",
-      "footer": "最低支持版本为 iOS 26 及更高版本"
+      "footer": "最低支持版本为 26 及更高版本"
     },
     "notice": "Ava 正在<bold>积极开发中</bold>,且<bold>暂未开源</bold>。我目前正在等待 Reddit 关于 API 使用条款请求的回复。在此之前,<highlighted>TestFlight 链接将保持禁用状态</highlighted>。",
     "buttons": {

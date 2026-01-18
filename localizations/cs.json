@@ -1,7 +1,7 @@
 {
   "metadata": {
-    "title": "Ava pro Reddit – Moderní nativní klient Redditu pro iOS",
-    "description": "Ava je rychlý, přehledný a plně nativní klient Redditu pro iOS zaměřený na výkon, soukromí a prostředí bez rozptylování.",
+    "title": "Ava pro Reddit – Moderní nativní Reddit klient pro iOS",
+    "description": "Ava je rychlý, přehledný a plně nativní Reddit klient pro iOS zaměřený na výkon, soukromí a prostředí bez rozptylování.",
     "keywords": "Ava Reddit klient,iOS Reddit aplikace,Reddit iOS klient,moderní Reddit aplikace,alternativní Reddit aplikace,Reddit aplikace zaměřená na soukromí,nativní iOS Reddit aplikace,SwiftUI Reddit klient,rychlá Reddit aplikace,přehledné Reddit rozhraní,Reddit čtečka,iPhone Reddit aplikace"
   },
   "notFound": {
@@ -16,13 +16,13 @@
     },
     "hero": {
       "headline": "Ava pro Reddit <super>(beta)</super>",
-      "subheadline": "Ava je <highlighted>plně nativní klient Redditu pro iOS</highlighted>, inspirovaný <highlighted>tím nejlepším z Apolla</highlighted> a vytvořený od základů pomocí <highlighted>Swiftu a SwiftUI</highlighted>. Každý detail je pečlivě vytvořen tak, aby působil rychle, čistě a <highlighted>nezaměnitelně jako iOS</highlighted>. Ava se zaměřuje na to nejdůležitější: rychlost, soukromí, rozsáhlou přizpůsobitelnost a vybroušené uživatelské prostředí — <highlighted>bez sledování, sbírání dat nebo kompromisů.</highlighted>"
+      "subheadline": "Ava je <highlighted>plně nativní Reddit klient pro iOS</highlighted>, inspirovaný <highlighted>tím nejlepším z Apolla</highlighted> a vytvořený od základů pomocí <highlighted>Swiftu a SwiftUI</highlighted>. Každý detail je pečlivě vytvořen tak, aby působil rychle, čistě a <highlighted>nezaměnitelně jako iOS</highlighted>. Ava se zaměřuje na to nejdůležitější: rychlost, soukromí, rozsáhlou přizpůsobitelnost a vybroušené uživatelské prostředí — <highlighted>bez sledování, sbírání dat nebo kompromisů.</highlighted>"
     },
     "compatibility": {
       "headline": "Dostupné na:",
       "atLaunch": "Brzy",
       "later": "Konec roku 2026",
-      "footer": "Minimální podporovaná verze je iOS 26 a novější"
+      "footer": "Minimální podporovaná verze je 26 a novější"
     },
     "notice": "Ava je <bold>aktivně vyvíjena</bold> a <bold>zatím není open-source</bold>. Aktuálně čekám na odpověď ohledně mé žádosti o podmínky využití API od Redditu. Do té doby <highlighted>zůstává odkaz na TestFlight vypnutý</highlighted>.",
     "buttons": {
