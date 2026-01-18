@@ -47,7 +47,7 @@ export function generateViewport(): Viewport {
     colorScheme: "dark",
     width: "device-width",
     initialScale: 1,
-    maximumScale: 1,
+    maximumScale: 5,
     viewportFit: "cover",
     userScalable: true,
   };
@@ -180,7 +180,7 @@ export default async function LocaleLayout({ children, params }: Props) {
   };
 
   return (
-    <html lang={locale}>
+    <html lang={locale} className="scroll-smooth">
       <head>
         <script
           type="application/ld+json"

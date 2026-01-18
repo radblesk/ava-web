@@ -1,22 +1,27 @@
 {
   "metadata": {
-    "title": "Ava dla Reddita – Nowoczesny, natywny klient Reddita na iOS",
-    "description": "Ava to szybki, przejrzysty i w pełni natywny klient Reddita na iOS, skupiony na wydajności, prywatności i doświadczeniu bez rozpraszaczy.",
-    "keywords": "Ava klient Reddit,aplikacja Reddit iOS,klient Reddit iOS,nowoczesna aplikacja Reddit,alternatywna aplikacja Reddit,aplikacja Reddit skupiona na prywatności,natywna aplikacja Reddit iOS,klient Reddit SwiftUI,szybka aplikacja Reddit,przejrzysty interfejs Reddit,czytnik Reddit,aplikacja Reddit iPhone"
+    "title": "Ava for Reddit – Nowoczesny, natywny klient Reddit dla iOS",
+    "description": "Ava to szybki, przejrzysty i w pełni natywny klient Reddit dla iOS, skupiony na wydajności, prywatności i niezakłóconym doświadczeniu.",
+    "keywords": "Ava klient Reddit,aplikacja Reddit iOS,klient Reddit iOS,nowoczesna aplikacja Reddit,alternatywna aplikacja Reddit,aplikacja Reddit z naciskiem na prywatność,natywna aplikacja Reddit iOS,klient Reddit SwiftUI,szybka aplikacja Reddit,przejrzysty interfejs Reddit,czytnik Reddit,aplikacja Reddit iPhone"
   },
   "notFound": {
     "title": "Ups! Ava zgubiła tę stronę",
-    "description": "Wygląda na to, że ta strona nie istnieje… albo Ava przeniosła ją gdzieś indziej.",
-    "cta": "Zabierz mnie do domu",
+    "description": "Wygląda na to, że ta strona nie istnieje… albo Ava przeniosła ją gdzie indziej.",
+    "cta": "Wróć do strony głównej",
     "locale": "pl"
   },
   "homepage": {
     "navbar": {
-      "inDev": "W fazie rozwoju"
+      "inDev": "W trakcie rozwoju"
+    },
+    "headers": {
+      "features": "funkcje",
+      "resources": "zasoby",
+      "footer": "stopka"
     },
     "hero": {
-      "headline": "Ava dla Reddita <super>(beta)</super>",
-      "subheadline": "Ava to <highlighted>w pełni natywny klient Reddita na iOS</highlighted>, zainspirowany <highlighted>tym, co najlepsze w Apollo</highlighted> i zbudowany od podstaw przy użyciu <highlighted>Swift i SwiftUI</highlighted>. Każdy szczegół został starannie wykonany, aby działał szybko, czysto i <highlighted>bezspornie w stylu iOS</highlighted>. Ava skupia się na tym, co najważniejsze: szybkości, prywatności, rozbudowanej personalizacji i dopracowanym doświadczeniu użytkownika — <highlighted>bez śledzenia, zbierania danych czy kompromisów.</highlighted>"
+      "headline": "Ava for Reddit <super>(beta)</super>",
+      "subheadline": "Ava to <highlighted>w pełni natywny klient Reddit dla iOS</highlighted>, zainspirowany <highlighted>tym, co najlepsze w Apollo</highlighted> i stworzony od podstaw przy użyciu <highlighted>Swift i SwiftUI</highlighted>. Każdy szczegół został starannie dopracowany, aby działał szybko, wyglądał przejrzyście i <highlighted>był wyraźnie iOS-owy</highlighted>. Ava skupia się na tym, co najważniejsze: szybkości, prywatności, zaawansowanej personalizacji i dopracowanym doświadczeniu użytkownika — <highlighted>bez śledzenia, zbierania danych czy kompromisów.</highlighted>"
     },
     "compatibility": {
       "headline": "Dostępne na:",
@@ -24,7 +29,17 @@
       "later": "Koniec 2026",
       "footer": "Minimalna obsługiwana wersja to 26 i nowsze"
     },
-    "notice": "Ava jest <bold>aktywnie rozwijana</bold> i <bold>nie jest obecnie open-source</bold>. Obecnie czekam na odpowiedź dotyczącą mojego wniosku o warunki korzystania z API Reddita. Do tego czasu <highlighted>link do TestFlight pozostaje wyłączony</highlighted>.",
+    "features": {
+      "feature1": {
+        "headline": "Twój Reddit, na Twój sposób",
+        "description": "Personalizuj to, czego inne aplikacje nie pozwalają zmienić. Wybierz swoje <highlighted>motywy</highlighted>, dostosuj odstępy i marginesy postów, ukryj przyciski głosowania, jeśli Ci przeszkadzają. Chcesz informacje o subreddicie na górze? Na dole? Gotowe. Przełączaj się między <highlighted>pełnym a kompaktowym stylem</highlighted>, kiedy tylko chcesz.<br></br><br></br><highlighted>Odfiltruj szum:</highlighted> całkowicie blokuj użytkowników, filtruj według słów kluczowych w tytułach czy flairach, ukrywaj całe subreddity ze swoich feedów. Widzisz tylko to, co chcesz widzieć."
+      },
+      "feature2": {
+        "headline": "Stworzona natywnie, czuć różnicę",
+        "description": "Bez lagów, bez czekania—tylko <highlighted>płynne, natychmiastowe reakcje</highlighted>, które nadążają za Twoim przewijaniem. Natywny Swift oznacza, że wszystko działa płynnie i żywo. Przestronne odstępy, większe podglądy multimediów, <highlighted>kolorowe wskaźniki głębokości</highlighted>, dzięki którym nigdy nie zgubisz się w wątkach komentarzy. Pełne wsparcie dla iPada z prawdziwym split view. Po prostu działa tak, jak się spodziewasz."
+      }
+    },
+    "notice": "Ava jest <bold>aktywnie rozwijana</bold> i <bold>nie jest open source (na razie)</bold>. Obecnie czekam na odpowiedź dotyczącą mojego wniosku o warunki korzystania z API od Reddit. Do tego czasu <highlighted>link do TestFlight pozostaje wyłączony</highlighted>.",
     "buttons": {
       "testflight": {
         "title": "TestFlight",
@@ -56,6 +71,7 @@
       }
     },
     "footer": {
+      "affiliate": "Ava to niezależny klient zewnętrzny i nie jest powiązana, wspierana ani połączona z Reddit, Inc.",
       "reserved": "Wszelkie prawa zastrzeżone.",
       "appleTrademark": "Apple TV, Apple Watch, iPad, iPad Air, iPhone, iPod i iPod touch są znakami towarowymi Apple Inc., zarejestrowanymi w USA i innych krajach."
     }
