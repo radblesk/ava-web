@@ -9,101 +9,124 @@ import iconLight from "@/public/icon-light.webp";
 import footerLogo from "@/public/wide-dark.svg";
 
 export default function Home() {
+  // Translations
   const t = useTranslations("homepage");
 
+  // Compatibility Cards Data
+  const compatibilityCards = [
+    {
+      title: "iOS*",
+      atLaunch: true,
+    },
+    {
+      title: "iPadOS*",
+      atLaunch: true,
+    },
+    {
+      title: "watchOS*",
+    },
+    {
+      title: "macOS*",
+    },
+    {
+      title: "visionOS*",
+    },
+  ];
+
+  // Buttons Data
+  const buttons = t.raw("buttons");
+  const buttonKeys = Object.keys(buttons);
+
   return (
-    <div className="flex min-h-screen items-center justify-center overflow-y-auto">
-      <main className="relative flex h-svh min-h-fit w-full max-w-3xl flex-col items-center justify-between gap-10 px-16 py-12 sm:justify-center sm:gap-20 lg:py-22">
+    <div className="flex min-h-screen items-center justify-center overflow-y-auto dark:bg-linear-to-b dark:from-gray-950 dark:to-zinc-950">
+      <main className="relative flex h-svh min-h-fit w-full max-w-4xl flex-col items-center justify-between gap-10 px-10 py-12 sm:justify-center sm:gap-20 sm:px-16 lg:py-22">
+        {/* Animated Ava Icon */}
         <Image
           className="z-10 block h-24 w-auto rounded-3xl shadow-2xl shadow-sky-800/50 motion-safe:animate-[bounce_3s_ease-in-out_infinite] dark:hidden"
           src={iconLight}
-          alt="Ava logo"
+          alt="Ava Icon Light"
           priority
         />
         <Image
-          className="animate-2 z-10 hidden h-24 w-auto rounded-3xl shadow-2xl shadow-sky-600/30 motion-safe:animate-[bounce_3s_ease-in-out_infinite] dark:block"
+          className="animate-2 z-10 hidden h-24 w-auto rounded-3xl shadow-2xl shadow-sky-500/30 motion-safe:animate-[bounce_3s_ease-in-out_infinite] dark:block"
           src={iconDark}
-          alt="Ava logo"
+          alt="Ava Icon Dark"
           priority
         />
+
+        {/* Hero */}
         <div className="z-10 flex flex-col items-center gap-6 text-center drop-shadow-lg drop-shadow-black/20">
-          <h1 className="max-w-xs text-3xl leading-10 font-semibold tracking-tight text-black dark:text-zinc-50">
-            {t("headline")}
+          <h1 className="flex max-w-xs gap-2 text-3xl leading-10 font-semibold tracking-tight text-black dark:text-zinc-50">
+            {t.rich("hero.headline", {
+              super: (chunks) => (
+                <span className="text-base text-orange-500">{chunks}</span>
+              ),
+            })}
           </h1>
-          <p className="max-w-md text-lg leading-6 text-zinc-600 sm:leading-7 dark:text-zinc-400">
-            {t("subheadline")}
+          <p className="max-w-md text-lg leading-6 text-balance text-zinc-600 sm:leading-7 dark:text-zinc-400">
+            {t.rich("hero.subheadline", {
+              highlighted: (chunks) => (
+                <span className="font-medium text-zinc-950 dark:text-zinc-50">
+                  {chunks}
+                </span>
+              ),
+            })}
           </p>
         </div>
 
+        {/* Compatibility Cards */}
         <div className="flex flex-col gap-2">
-          <p className="text-zinc-400">{t("compatibility.headline")}</p>
+          <p className="font-medium tracking-tight text-zinc-600 dark:text-zinc-400">
+            {t("compatibility.headline")}
+          </p>
           <div className="relative flex flex-wrap items-center justify-center gap-4 sm:gap-6">
-            <CompatibilityCard
-              symbol="iphone11"
-              alt="iPhone 11 symbol"
-              size={30}
-            />
-            <CompatibilityCard
-              symbol="ipadmini"
-              alt="iPad Mini (5th generation) symbol"
-              size={34}
-            />
-            <CompatibilityCard
-              symbol="watch6"
-              alt="Apple Watch Series 6 symbol"
-              size={76}
-              onLaunch={false}
-            />
-            <CompatibilityCard
-              symbol="macbook"
-              alt="Apple Watch Series 6 symbol"
-              size={76}
-              onLaunch={false}
-            />
-            <CompatibilityCard
-              symbol="vision.pro"
-              alt="Apple Watch Series 6 symbol"
-              size={76}
-              onLaunch={false}
-            />
+            {compatibilityCards.map((card, i) => (
+              <CompatibilityCard
+                key={i}
+                os={card.title}
+                atLaunch={card.atLaunch}
+                index={i}
+              />
+            ))}
           </div>
 
-          <p className="pt-2 text-xs text-zinc-400">
+          <p className="pt-2 text-xs text-zinc-600 dark:text-zinc-400">
             *{t("compatibility.footer")}
           </p>
         </div>
 
-        <div className="z-10 flex max-w-sm flex-wrap justify-center gap-4 text-base font-medium sm:max-w-lg">
-          <Button
-            title="TestFlight"
-            url=""
-            symbol="fan.svg"
-            alt="TestFlight alternative logo"
-            disabled={true}
-          />
-          <Button
-            title="GitHub"
-            url="https://github.com/radblesk/"
-            symbol="github.svg"
-            alt="GitHub logo"
-          />
-          <Button
-            title="r/AvaApp"
-            url="https://www.reddit.com/r/AvaApp"
-            symbol="reddit.svg"
-            alt="Reddit logo"
-            disabled={true}
-          />
-          <Button
-            title={t("buttons.developer")}
-            url="https://www.radobley.sk"
-            symbol="monogram-dark.svg"
-            alt="Radoslav Bley logo"
-          />
+        {/* Notice */}
+        <p className="max-w-md text-center text-sm text-zinc-600 dark:text-zinc-400">
+          {t.rich("notice", {
+            bold: (chunks) => (
+              <span className="font-medium text-zinc-950 dark:text-zinc-50">
+                {chunks}
+              </span>
+            ),
+            highlighted: (chunks) => (
+              <span className="font-medium text-orange-500">{chunks}</span>
+            ),
+          })}
+        </p>
+
+        {/* Buttons */}
+        <div className="z-10 flex max-w-sm flex-wrap gap-4 text-base font-medium sm:max-w-lg">
+          {buttonKeys.map((key) => (
+            <Button
+              key={key}
+              title={t(`buttons.${key}.title`)}
+              url={t(`buttons.${key}.link`)}
+              symbol={t(`buttons.${key}.symbol`)}
+              alt={t(`buttons.${key}.alt`)}
+              disabled={t(`buttons.${key}.disabled`) === "true"}
+            />
+          ))}
         </div>
 
-        <div className="border-foreground w-full border-t mask-x-from-0"></div>
+        {/* Divider */}
+        <div className="bg-foreground h-px w-full mask-x-from-0"></div>
 
+        {/* Footer */}
         <div className="flex flex-col items-center gap-8 text-center text-xs text-zinc-600 dark:text-zinc-400">
           <p>{t("footer.reserved")}</p>
 
