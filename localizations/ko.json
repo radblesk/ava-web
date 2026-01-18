@@ -1,31 +1,63 @@
 {
   "metadata": {
-    "title": "Ava for Reddit – iOS용 모던 네이티브 Reddit 클라이언트",
-    "description": "Ava는 빠르고 깔끔하며 완전한 네이티브 iOS Reddit 클라이언트로, 성능, 개인정보 보호, 방해 없는 경험에 중점을 두고 있습니다.",
-    "keywords": "Ava Reddit client,iOS Reddit 앱,Reddit iOS 클라이언트,모던 Reddit 앱,대체 Reddit 앱,개인정보 중심 Reddit 앱,네이티브 iOS Reddit 클라이언트,SwiftUI Reddit client,빠른 Reddit 앱,깔끔한 Reddit 인터페이스,Reddit 리더,iPhone Reddit 앱"
+    "title": "Ava for Reddit – iOS용 현대적인 네이티브 Reddit 클라이언트",
+    "description": "Ava는 성능, 개인정보 보호, 방해 없는 경험에 중점을 둔 빠르고 깔끔하며 완전한 네이티브 iOS용 Reddit 클라이언트입니다.",
+    "keywords": "Ava Reddit 클라이언트,iOS Reddit 앱,Reddit iOS 클라이언트,현대적인 Reddit 앱,대체 Reddit 앱,개인정보 보호 중심 Reddit 앱,네이티브 iOS Reddit 앱,SwiftUI Reddit 클라이언트,빠른 Reddit 앱,깔끔한 Reddit 인터페이스,Reddit 리더,iPhone Reddit 앱"
   },
   "notFound": {
-    "title": "앗! Ava가 이 페이지를 찾지 못했습니다",
-    "description": "이 페이지는 존재하지 않거나… Ava가 어딘가로 이동시킨 것 같아요.",
+    "title": "앗! Ava가 이 페이지를 잃어버렸어요",
+    "description": "이 페이지가 존재하지 않거나… Ava가 다른 곳으로 옮긴 것 같아요.",
     "cta": "홈으로 이동",
     "locale": "ko"
   },
   "homepage": {
-    "headline": "Ava for Reddit (베타)",
-    "subheadline": "Ava는 완전한 네이티브 iOS Reddit 클라이언트로, Apollo의 최고에서 영감을 얻고 Swift와 SwiftUI로 처음부터 구축되었습니다. 모든 세부 사항은 빠르고 깔끔하며 iOS 특유의 느낌을 주도록 수작업으로 제작되었습니다. Ava는 가장 중요한 것에 집중합니다: 속도, 개인정보 보호, 깊은 커스터마이징, 정교한 사용자 경험 — 추적, 데이터 수집, 타협 없음.",
-    "compatibility": {
-      "headline": "지원 기기:",
-      "atLaunch": "출시 시",
-      "later": "2026년 말",
-      "footer": "iOS/iPadOS/watchOS/macOS/visionOS 26 이상 호환"
+    "navbar": {
+      "inDev": "개발 중"
     },
+    "hero": {
+      "headline": "Ava for Reddit <super>(베타)</super>",
+      "subheadline": "Ava는 <highlighted>Apollo의 장점</highlighted>에서 영감을 받아 <highlighted>Swift와 SwiftUI</highlighted>로 처음부터 새로 만든 <highlighted>완전한 네이티브 iOS용 Reddit 클라이언트</highlighted>입니다. 모든 세부 사항이 빠르고 깔끔하며 <highlighted>확실히 iOS다운</highlighted> 느낌을 주도록 정성스럽게 제작되었습니다. Ava는 가장 중요한 것에 집중합니다: 속도, 개인정보 보호, 깊이 있는 커스터마이징, 그리고 세련된 사용자 경험 — <highlighted>추적, 데이터 수집, 타협 없이.</highlighted>"
+    },
+    "compatibility": {
+      "headline": "사용 가능 플랫폼:",
+      "atLaunch": "곧 출시",
+      "later": "2026년 후반",
+      "footer": "최소 지원 버전은 26 이상입니다"
+    },
+    "notice": "Ava는 <bold>활발히 개발 중</bold>이며 <bold>현재는 오픈소스가 아닙니다</bold>. 현재 Reddit에 API 사용 약관 요청에 대한 답변을 기다리고 있습니다. 그때까지 <highlighted>TestFlight 링크는 비활성화 상태로 유지됩니다</highlighted>.",
     "buttons": {
-      "inDev": "개발 중",
-      "developer": "개발자"
+      "testflight": {
+        "title": "TestFlight",
+        "symbol": "fan",
+        "link": "stop looking for the link",
+        "alt": "TestFlight 버튼",
+        "disabled": "true"
+      },
+      "subreddit": {
+        "title": "r/AvaApp",
+        "symbol": "reddit",
+        "link": "https://www.reddit.com/r/AvaApp",
+        "alt": "Subreddit 버튼",
+        "disabled": "false"
+      },
+      "github": {
+        "title": "GitHub",
+        "symbol": "github",
+        "link": "https://github.com/radblesk/",
+        "alt": "GitHub 버튼",
+        "disabled": "false"
+      },
+      "developer": {
+        "title": "개발자",
+        "symbol": "monogram-dark",
+        "link": "https://www.radobley.sk",
+        "alt": "개발자 웹사이트 버튼",
+        "disabled": "false"
+      }
     },
     "footer": {
-      "reserved": "판권 소유.",
-      "appleTrademark": "Apple TV, Apple Watch, iPad, iPad Air, iPhone, iPod 및 iPod touch는 Apple Inc.의 미국 및 기타 국가에서 등록된 상표입니다."
+      "reserved": "모든 권리 보유.",
+      "appleTrademark": "Apple TV, Apple Watch, iPad, iPad Air, iPhone, iPod, iPod touch는 미국 및 기타 국가에서 등록된 Apple Inc.의 상표입니다."
     }
   }
 }

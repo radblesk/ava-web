@@ -1,31 +1,63 @@
 {
   "metadata": {
-    "title": "Ava pour Reddit – Client Reddit natif et moderne pour iOS",
-    "description": "Ava est un client Reddit rapide, propre et entièrement natif pour iOS, axé sur la performance, la confidentialité et une expérience sans distractions.",
-    "keywords": "Ava Reddit client,app Reddit iOS,Reddit client iOS,app Reddit moderne,app Reddit alternative,Reddit axé sur la confidentialité,client Reddit natif iOS,SwiftUI Reddit client,app Reddit rapide,interface Reddit propre,Lecteur Reddit,app iPhone Reddit"
+    "title": "Ava pour Reddit – Un client Reddit moderne et natif pour iOS",
+    "description": "Ava est un client Reddit rapide, épuré et entièrement natif pour iOS, axé sur les performances, la confidentialité et une expérience sans distraction.",
+    "keywords": "Ava client Reddit,app Reddit iOS,client Reddit iOS,app Reddit moderne,app Reddit alternative,app Reddit axée confidentialité,app Reddit native iOS,client Reddit SwiftUI,app Reddit rapide,interface Reddit épurée,lecteur Reddit,app Reddit iPhone"
   },
   "notFound": {
-    "title": "Oups ! Ava a Perdu Cette Page",
-    "description": "On dirait que cette page n’existe pas… ou Ava l’a emportée ailleurs.",
-    "cta": "Aller à l’accueil",
+    "title": "Oups ! Ava a perdu cette page",
+    "description": "Il semblerait que cette page n'existe pas… ou qu'Ava l'ait déplacée ailleurs.",
+    "cta": "Retour à l'accueil",
     "locale": "fr"
   },
   "homepage": {
-    "headline": "Ava pour Reddit (beta)",
-    "subheadline": "Ava est un client Reddit entièrement natif pour iOS, inspiré du meilleur d’Apollo et construit de zéro avec Swift et SwiftUI. Chaque détail est soigneusement conçu pour être rapide, propre et clairement iOS. Ava se concentre sur l’essentiel : vitesse, confidentialité, personnalisation poussée et expérience utilisateur soignée — sans suivi, collecte de données ou compromis.",
-    "compatibility": {
-      "headline": "Appareils compatibles :",
-      "atLaunch": "Au lancement",
-      "later": "Fin 2026",
-      "footer": "Compatible avec iOS/iPadOS/watchOS/macOS/visionOS 26 et versions ultérieures"
+    "navbar": {
+      "inDev": "En développement"
     },
+    "hero": {
+      "headline": "Ava pour Reddit <super>(bêta)</super>",
+      "subheadline": "Ava est un <highlighted>client Reddit entièrement natif pour iOS</highlighted>, inspiré par <highlighted>ce qu'Apollo a fait de mieux</highlighted> et construit de zéro avec <highlighted>Swift et SwiftUI</highlighted>. Chaque détail est conçu avec soin pour être rapide, épuré et <highlighted>indéniablement iOS</highlighted>. Ava se concentre sur l'essentiel : vitesse, confidentialité, personnalisation poussée et une expérience utilisateur soignée — <highlighted>sans suivi, collecte de données ou compromis.</highlighted>"
+    },
+    "compatibility": {
+      "headline": "Disponible sur :",
+      "atLaunch": "Bientôt",
+      "later": "Fin 2026",
+      "footer": "La version minimale prise en charge est 26 et supérieur"
+    },
+    "notice": "Ava est <bold>en développement actif</bold> et <bold>n'est pas open-source (pour le moment)</bold>. J'attends actuellement une réponse concernant ma demande de conditions d'utilisation de l'API auprès de Reddit. En attendant, <highlighted>le lien TestFlight reste désactivé</highlighted>.",
     "buttons": {
-      "inDev": "En développement",
-      "developer": "Développeur"
+      "testflight": {
+        "title": "TestFlight",
+        "symbol": "fan",
+        "link": "stop looking for the link",
+        "alt": "Bouton TestFlight",
+        "disabled": "true"
+      },
+      "subreddit": {
+        "title": "r/AvaApp",
+        "symbol": "reddit",
+        "link": "https://www.reddit.com/r/AvaApp",
+        "alt": "Bouton Subreddit",
+        "disabled": "false"
+      },
+      "github": {
+        "title": "GitHub",
+        "symbol": "github",
+        "link": "https://github.com/radblesk/",
+        "alt": "Bouton GitHub",
+        "disabled": "false"
+      },
+      "developer": {
+        "title": "Développeur",
+        "symbol": "monogram-dark",
+        "link": "https://www.radobley.sk",
+        "alt": "Bouton site web du développeur",
+        "disabled": "false"
+      }
     },
     "footer": {
       "reserved": "Tous droits réservés.",
-      "appleTrademark": "Apple TV, Apple Watch, iPad, iPad Air, iPhone, iPod et iPod touch sont des marques déposées d’Apple Inc., enregistrées aux États-Unis et dans d’autres pays."
+      "appleTrademark": "Apple TV, Apple Watch, iPad, iPad Air, iPhone, iPod et iPod touch sont des marques commerciales d'Apple Inc., déposées aux États-Unis et dans d'autres pays."
     }
   }
 }

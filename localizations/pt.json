@@ -1,27 +1,59 @@
 {
   "metadata": {
-    "title": "Ava para Reddit – Cliente Reddit nativo moderno para iOS",
-    "description": "Ava é um cliente Reddit rápido, limpo e totalmente nativo para iOS, focado em desempenho, privacidade e uma experiência sem distrações.",
-    "keywords": "Ava Reddit client,app Reddit iOS,Reddit cliente iOS,app Reddit moderna,app Reddit alternativa,Reddit focado em privacidade,cliente Reddit nativo iOS,SwiftUI Reddit client,app Reddit rápida,interface limpa Reddit,Lector Reddit,app iPhone Reddit"
+    "title": "Ava para Reddit – Um cliente moderno e nativo do Reddit para iOS",
+    "description": "Ava é um cliente do Reddit rápido, limpo e totalmente nativo para iOS, focado em desempenho, privacidade e uma experiência sem distrações.",
+    "keywords": "Ava cliente Reddit,app Reddit iOS,cliente Reddit iOS,app Reddit moderna,app Reddit alternativa,app Reddit focada em privacidade,app Reddit nativa iOS,cliente Reddit SwiftUI,app Reddit rápida,interface Reddit limpa,leitor Reddit,app Reddit iPhone"
   },
   "notFound": {
-    "title": "Ops! Ava Perdeu Esta Página",
-    "description": "Parece que esta página não existe… ou Ava a levou para outro lugar.",
-    "cta": "Ir para Início",
+    "title": "Ops! Ava perdeu esta página",
+    "description": "Parece que esta página não existe… ou Ava a moveu para outro lugar.",
+    "cta": "Voltar ao início",
     "locale": "pt"
   },
   "homepage": {
-    "headline": "Ava para Reddit (beta)",
-    "subheadline": "Ava é um cliente Reddit totalmente nativo para iOS, inspirado no melhor do Apollo e construído do zero com Swift e SwiftUI. Cada detalhe é cuidadosamente feito para ser rápido, limpo e claramente iOS. Ava foca no que realmente importa: velocidade, privacidade, personalização profunda e experiência de usuário polida — sem rastreamento, coleta de dados ou compromissos.",
-    "compatibility": {
-      "headline": "Dispositivos compatíveis:",
-      "atLaunch": "No lançamento",
-      "later": "Final de 2026",
-      "footer": "Compatível com iOS/iPadOS/watchOS/macOS/visionOS 26 e versões mais recentes"
+    "navbar": {
+      "inDev": "Em desenvolvimento"
     },
+    "hero": {
+      "headline": "Ava para Reddit <super>(beta)</super>",
+      "subheadline": "Ava é um <highlighted>cliente do Reddit totalmente nativo para iOS</highlighted>, inspirado pelo <highlighted>melhor do Apollo</highlighted> e construído do zero com <highlighted>Swift e SwiftUI</highlighted>. Cada detalhe é cuidadosamente elaborado para ser rápido, limpo e <highlighted>inconfundivelmente iOS</highlighted>. Ava foca no que mais importa: velocidade, privacidade, personalização completa e uma experiência de usuário refinada — <highlighted>sem rastreamento, coleta de dados ou concessões.</highlighted>"
+    },
+    "compatibility": {
+      "headline": "Disponível em:",
+      "atLaunch": "Em breve",
+      "later": "Final de 2026",
+      "footer": "A versão mínima suportada é 26 e posterior"
+    },
+    "notice": "Ava está em <bold>desenvolvimento ativo</bold> e <bold>não é código aberto (por enquanto)</bold>. Atualmente estou aguardando uma resposta sobre minha solicitação de termos de uso da API ao Reddit. Até lá, <highlighted>o link do TestFlight permanece desativado</highlighted>.",
     "buttons": {
-      "inDev": "Em desenvolvimento",
-      "developer": "Desenvolvedor"
+      "testflight": {
+        "title": "TestFlight",
+        "symbol": "fan",
+        "link": "stop looking for the link",
+        "alt": "Botão TestFlight",
+        "disabled": "true"
+      },
+      "subreddit": {
+        "title": "r/AvaApp",
+        "symbol": "reddit",
+        "link": "https://www.reddit.com/r/AvaApp",
+        "alt": "Botão Subreddit",
+        "disabled": "false"
+      },
+      "github": {
+        "title": "GitHub",
+        "symbol": "github",
+        "link": "https://github.com/radblesk/",
+        "alt": "Botão GitHub",
+        "disabled": "false"
+      },
+      "developer": {
+        "title": "Desenvolvedor",
+        "symbol": "monogram-dark",
+        "link": "https://www.radobley.sk",
+        "alt": "Botão do site do desenvolvedor",
+        "disabled": "false"
+      }
     },
     "footer": {
       "reserved": "Todos os direitos reservados.",

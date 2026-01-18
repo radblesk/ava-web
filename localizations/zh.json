@@ -1,31 +1,63 @@
 {
   "metadata": {
-    "title": "Ava for Reddit – 现代 iOS 原生 Reddit 客户端",
-    "description": "Ava 是一个快速、干净且完全原生的 iOS Reddit 客户端，专注于性能、隐私和无干扰体验。",
-    "keywords": "Ava Reddit 客户端,iOS Reddit 应用,Reddit iOS 客户端,现代 Reddit 应用,替代 Reddit 应用,隐私为主 Reddit 应用,原生 iOS Reddit 客户端,SwiftUI Reddit 客户端,快速 Reddit 应用,干净 Reddit 界面,Reddit 阅读器,iPhone Reddit 应用"
+    "title": "Ava for Reddit – 现代原生的 iOS Reddit 客户端",
+    "description": "Ava 是一款快速、简洁且完全原生的 iOS Reddit 客户端,专注于性能、隐私和无干扰的体验。",
+    "keywords": "Ava Reddit 客户端,iOS Reddit 应用,Reddit iOS 客户端,现代 Reddit 应用,替代 Reddit 应用,注重隐私的 Reddit 应用,原生 iOS Reddit 应用,SwiftUI Reddit 客户端,快速 Reddit 应用,简洁 Reddit 界面,Reddit 阅读器,iPhone Reddit 应用"
   },
   "notFound": {
-    "title": "哎呀！Ava 找不到此页面",
-    "description": "看起来此页面不存在…或者 Ava 把它传送到别的地方了。",
-    "cta": "回到首页",
-    "locale": "zh"
+    "title": "哎呀!Ava 找不到这个页面了",
+    "description": "看起来这个页面不存在……或者 Ava 把它移到别处了。",
+    "cta": "返回首页",
+    "locale": "zh-CN"
   },
   "homepage": {
-    "headline": "Ava for Reddit (测试版)",
-    "subheadline": "Ava 是一个完全原生的 iOS Reddit 客户端，灵感来源于 Apollo 的精华，并使用 Swift 和 SwiftUI 从零构建。每个细节都经过精心打磨，确保快速、干净，并且具有典型的 iOS 风格。Ava 专注于最重要的内容：速度、隐私、深度自定义和精致的用户体验 — 无跟踪、无数据收集，也无妥协。",
-    "compatibility": {
-      "headline": "支持的设备：",
-      "atLaunch": "上线时",
-      "later": "2026 年末",
-      "footer": "兼容 iOS/iPadOS/watchOS/macOS/visionOS 26 及更新版本"
+    "navbar": {
+      "inDev": "开发中"
     },
+    "hero": {
+      "headline": "Ava for Reddit <super>(测试版)</super>",
+      "subheadline": "Ava 是一款<highlighted>完全原生的 iOS Reddit 客户端</highlighted>,灵感来自<highlighted>Apollo 的精华</highlighted>,使用 <highlighted>Swift 和 SwiftUI</highlighted> 从零打造。每个细节都经过精心设计,力求快速、简洁且<highlighted>纯正的 iOS 风格</highlighted>。Ava 专注于最重要的方面:速度、隐私、深度定制和精致的用户体验——<highlighted>没有追踪、没有数据收集、没有妥协。</highlighted>"
+    },
+    "compatibility": {
+      "headline": "可用平台:",
+      "atLaunch": "即将推出",
+      "later": "2026 年底",
+      "footer": "最低支持版本为 26 及更高版本"
+    },
+    "notice": "Ava 正在<bold>积极开发中</bold>,且<bold>暂未开源</bold>。我目前正在等待 Reddit 关于 API 使用条款请求的回复。在此之前,<highlighted>TestFlight 链接将保持禁用状态</highlighted>。",
     "buttons": {
-      "inDev": "开发中",
-      "developer": "开发者"
+      "testflight": {
+        "title": "TestFlight",
+        "symbol": "fan",
+        "link": "stop looking for the link",
+        "alt": "TestFlight 按钮",
+        "disabled": "true"
+      },
+      "subreddit": {
+        "title": "r/AvaApp",
+        "symbol": "reddit",
+        "link": "https://www.reddit.com/r/AvaApp",
+        "alt": "Subreddit 按钮",
+        "disabled": "false"
+      },
+      "github": {
+        "title": "GitHub",
+        "symbol": "github",
+        "link": "https://github.com/radblesk/",
+        "alt": "GitHub 按钮",
+        "disabled": "false"
+      },
+      "developer": {
+        "title": "开发者",
+        "symbol": "monogram-dark",
+        "link": "https://www.radobley.sk",
+        "alt": "开发者网站按钮",
+        "disabled": "false"
+      }
     },
     "footer": {
-      "reserved": "版权所有。",
-      "appleTrademark": "Apple TV、Apple Watch、iPad、iPad Air、iPhone、iPod 和 iPod touch 是 Apple Inc. 的注册商标，在美国及其他国家注册。"
+      "reserved": "保留所有权利。",
+      "appleTrademark": "Apple TV、Apple Watch、iPad、iPad Air、iPhone、iPod 和 iPod touch 是 Apple Inc. 在美国和其他国家/地区的注册商标。"
     }
   }
 }

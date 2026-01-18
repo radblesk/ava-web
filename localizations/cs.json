@@ -1,27 +1,59 @@
 {
   "metadata": {
-    "title": "Ava pro Reddit – Moderní, nativní Reddit klient pro iOS",
-    "description": "Ava je rychlý, čistý a plně nativní Reddit klient pro iOS, zaměřený na výkon, soukromí a nerušené používání.",
-    "keywords": "Ava Reddit klient,iOS Reddit aplikace,Reddit iOS klient,moderní Reddit aplikace,alternativní Reddit klient,soukromý Reddit klient,nativní iOS Reddit klient,SwiftUI Reddit klient,rychlá Reddit aplikace,čisté Reddit rozhraní,Reddit čtečka,iPhone Reddit aplikace"
+    "title": "Ava pro Reddit – Moderní nativní Reddit klient pro iOS",
+    "description": "Ava je rychlý, přehledný a plně nativní Reddit klient pro iOS zaměřený na výkon, soukromí a prostředí bez rozptylování.",
+    "keywords": "Ava Reddit klient,iOS Reddit aplikace,Reddit iOS klient,moderní Reddit aplikace,alternativní Reddit aplikace,Reddit aplikace zaměřená na soukromí,nativní iOS Reddit aplikace,SwiftUI Reddit klient,rychlá Reddit aplikace,přehledné Reddit rozhraní,Reddit čtečka,iPhone Reddit aplikace"
   },
   "notFound": {
-    "title": "Ups! Ava Ztratila Tuto Stránku",
-    "description": "Vypadá to, že tato stránka neexistuje… nebo ji Ava někam odnesla.",
-    "cta": "Domů",
+    "title": "Jejda! Ava ztratila tuto stránku",
+    "description": "Vypadá to, že tato stránka neexistuje… nebo ji Ava přesunula někam jinam.",
+    "cta": "Zpět domů",
     "locale": "cs"
   },
   "homepage": {
-    "headline": "Ava pro Reddit (beta)",
-    "subheadline": "Ava je plně nativní Reddit klient pro iOS, inspirovaný tím nejlepším z Apollo a vytvořený od základu se Swift a SwiftUI. Každý detail je ručně vypracovaný tak, aby působil rychle, čistě a typicky pro iOS. Ava se zaměřuje na to, co je nejdůležitější: rychlost, soukromí, hluboká přizpůsobitelnost a precizní uživatelský zážitek — bez sledování, sběru dat nebo kompromisů.",
-    "compatibility": {
-      "headline": "Podporovaná zařízení:",
-      "atLaunch": "Při spuštění",
-      "later": "Konec roku 2026",
-      "footer": "Kompatibilní s iOS/iPadOS/watchOS/macOS/visionOS 26 a novějšími"
+    "navbar": {
+      "inDev": "Ve vývoji"
     },
+    "hero": {
+      "headline": "Ava pro Reddit <super>(beta)</super>",
+      "subheadline": "Ava je <highlighted>plně nativní Reddit klient pro iOS</highlighted>, inspirovaný <highlighted>tím nejlepším z Apolla</highlighted> a vytvořený od základů pomocí <highlighted>Swiftu a SwiftUI</highlighted>. Každý detail je pečlivě vytvořen tak, aby působil rychle, čistě a <highlighted>nezaměnitelně jako iOS</highlighted>. Ava se zaměřuje na to nejdůležitější: rychlost, soukromí, rozsáhlou přizpůsobitelnost a vybroušené uživatelské prostředí — <highlighted>bez sledování, sbírání dat nebo kompromisů.</highlighted>"
+    },
+    "compatibility": {
+      "headline": "Dostupné na:",
+      "atLaunch": "Brzy",
+      "later": "Konec roku 2026",
+      "footer": "Minimální podporovaná verze je 26 a novější"
+    },
+    "notice": "Ava je <bold>aktivně vyvíjena</bold> a <bold>zatím není open-source</bold>. Aktuálně čekám na odpověď ohledně mé žádosti o podmínky využití API od Redditu. Do té doby <highlighted>zůstává odkaz na TestFlight vypnutý</highlighted>.",
     "buttons": {
-      "inDev": "Ve vývoji",
-      "developer": "Vývojář"
+      "testflight": {
+        "title": "TestFlight",
+        "symbol": "fan",
+        "link": "stop looking for the link",
+        "alt": "Tlačítko TestFlight",
+        "disabled": "true"
+      },
+      "subreddit": {
+        "title": "r/AvaApp",
+        "symbol": "reddit",
+        "link": "https://www.reddit.com/r/AvaApp",
+        "alt": "Tlačítko Subreddit",
+        "disabled": "false"
+      },
+      "github": {
+        "title": "GitHub",
+        "symbol": "github",
+        "link": "https://github.com/radblesk/",
+        "alt": "Tlačítko GitHub",
+        "disabled": "false"
+      },
+      "developer": {
+        "title": "Vývojář",
+        "symbol": "monogram-dark",
+        "link": "https://www.radobley.sk",
+        "alt": "Tlačítko webové stránky vývojáře",
+        "disabled": "false"
+      }
     },
     "footer": {
       "reserved": "Všechna práva vyhrazena.",
