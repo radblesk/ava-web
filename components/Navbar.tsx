@@ -13,13 +13,18 @@ export default function Navbar() {
         <Image
           className="h-full w-auto lg:top-6 lg:left-1/4 dark:invert"
           src={rbLogo}
-          alt="Radoslav Bley logo"
+          alt="Radoslav Bley Logo"
           priority
         />
 
-        <p className="dark:zinc-400 text-sm font-extralight text-zinc-600">
-          {t("navbar.inDev")}
-        </p>
+        <div className="flex items-center gap-3">
+          <div className="relative h-1.5 w-1.5 rounded-full bg-green-600">
+            <div className="animate-duration-2500! absolute top-1/2 left-1/2 h-2.5 w-2.5 -translate-x-1/2 -translate-y-1/2 rounded-full bg-green-600 motion-safe:animate-ping"></div>
+          </div>
+          <p className="dark:zinc-400 text-sm font-extralight text-zinc-600">
+            {t("navbar.inDev")}
+          </p>
+        </div>
       </div>
     </nav>
   );
