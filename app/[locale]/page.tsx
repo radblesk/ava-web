@@ -67,7 +67,7 @@ export default function Home() {
         className="absolute inset-0 h-screen w-screen mask-b-from-0 object-cover opacity-70 mix-blend-screen dark:opacity-5"
       />
 
-      <main className="relative flex h-svh min-h-fit w-full max-w-4xl flex-col items-center justify-center gap-10 px-10 py-12 sm:gap-20 sm:px-16 lg:py-22">
+      <main className="relative flex h-svh min-h-fit w-full max-w-xl flex-col items-center justify-center gap-10 px-10 py-12 sm:max-w-7xl sm:gap-20 sm:px-16 lg:py-22">
         {/* Animated Ava Icon */}
         <Image
           preload={true}
@@ -193,9 +193,12 @@ export default function Home() {
             <p className="text-sm">&copy; {new Date().getFullYear()}</p>
             <div className="h-4 w-px -skew-12 bg-orange-600 dark:bg-orange-500"></div>
             <a
+              role="link"
               href="https://www.radobley.sk"
               target="_blank"
               rel="noopener noreferrer"
+              aria-label="Visit developer's website"
+              tabIndex={0}
             >
               <Image
                 loading="lazy"
