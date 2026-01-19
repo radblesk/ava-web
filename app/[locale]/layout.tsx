@@ -112,9 +112,9 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       siteName: t("title"),
       images: [
         {
-          url: "/opengraph-image.png",
-          width: 1800,
-          height: 1600,
+          url: "/opengraph-image.jpg",
+          width: 800,
+          height: 600,
         },
       ],
       locale: ogLocaleMap[locale] || "en_US",
