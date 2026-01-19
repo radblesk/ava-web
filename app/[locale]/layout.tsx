@@ -142,9 +142,17 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 
     // Verification
     verification: {
-      google: "google",
+      google: "wIK4PvfexVT4RQYWAmGDmiZ0BfA64GwiCdzilOvqgaA",
       other: {
-        me: ["mailto:support@radobley.com"],
+        me: [
+          "mailto:support@radobley.com",
+          "mailto:info@radobley.com",
+          "mailto:support@radobley.",
+          "mailto:info@radobley.sk",
+          "https://www.reddit.com/r/AvaApp/",
+          "https://github.com/radblesk/",
+          "https://www.radobley.sk",
+        ],
       },
     },
   };
