@@ -150,10 +150,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
         me: [
           "mailto:support@radobley.com",
           "mailto:info@radobley.com",
-          "mailto:support@radobley.",
-          "mailto:info@radobley.sk",
-          "https://www.reddit.com/r/AvaApp/",
-          "https://github.com/radblesk/",
+          "https://www.radobley.com",
           "https://www.radobley.sk",
         ],
       },
