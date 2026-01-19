@@ -25,12 +25,13 @@ export default function Button({
       rel="noopener noreferrer"
     >
       <Image
-        className={`invert transition dark:invert-0 ${disabled ? "opacity-50" : ""}`}
+        loading="lazy"
         src={`${symbol}.svg`}
         alt={alt}
-        width={16}
-        height={16}
-        loading="lazy"
+        width={40}
+        height={40}
+        sizes="40px"
+        className={`aspect-square h-5 w-auto invert transition dark:invert-0 ${disabled ? "opacity-50" : ""}`}
       />
       {title}
     </a>

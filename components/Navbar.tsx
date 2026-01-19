@@ -12,10 +12,13 @@ export default function Navbar() {
       <div className="relative flex h-full w-full max-w-7xl items-center justify-between">
         <div className="flex h-full w-fit items-center gap-3">
           <Image
-            className="h-full w-auto lg:top-6 lg:left-1/4 dark:invert"
+            preload={true}
             src={rbLogo}
             alt="Radoslav Bley Logo"
-            priority
+            width={74}
+            height={54}
+            sizes="74px"
+            className="h-full w-auto lg:top-6 lg:left-1/4 dark:invert"
           />
           <div className="bg-foreground hidden h-full w-px -skew-12 sm:block"></div>
           <h1 className="hidden text-3xl font-medium sm:block">

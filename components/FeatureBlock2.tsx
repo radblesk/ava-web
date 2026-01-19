@@ -8,7 +8,7 @@ export default function FeatureBlock2() {
   const t = useTranslations("homepage.features.feature2");
 
   return (
-    <div className="grid grid-cols-1 place-items-center gap-10 sm:grid-cols-2">
+    <div className="grid w-full grid-cols-1 place-items-center gap-10 sm:grid-cols-2">
       <div className="order-1 flex flex-col gap-10 sm:order-2">
         <h2 className="text-3xl font-semibold tracking-tight">
           {t("headline")}
@@ -25,10 +25,13 @@ export default function FeatureBlock2() {
         </p>
       </div>
       <Image
+        loading="lazy"
         src={screen}
         alt="Ava Screenshot 2"
-        className="order-2 h-[80vh] w-auto sm:order-1"
-        loading="lazy"
+        width={565}
+        height={1152}
+        sizes="(max-width: 640px) 100vw, 565px"
+        className="order-2 aspect-auto max-h-[80vh] w-auto sm:order-1"
       />
     </div>
   );
