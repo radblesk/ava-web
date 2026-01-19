@@ -61,6 +61,7 @@ export default function Home() {
       {/* Overlay */}
       <Image
         preload={true}
+        fetchPriority="high"
         src={rays}
         alt="Light Rays overlay"
         sizes="100vw"
