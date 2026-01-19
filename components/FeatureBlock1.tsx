@@ -25,10 +25,13 @@ export default function FeatureBlock1() {
         </p>
       </div>
       <Image
+        loading="lazy"
         src={screen}
         alt="Ava Screenshot 1"
-        className="order-2 h-[80vh] w-auto"
-        loading="lazy"
+        width={565}
+        height={1152}
+        sizes="(max-width: 640px) 100vw, 565px"
+        className="order-2 aspect-auto max-h-[80vh] w-auto"
       />
     </div>
   );

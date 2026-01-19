@@ -60,25 +60,32 @@ export default function Home() {
     <div className="relative flex min-h-screen items-center justify-center overflow-y-auto bg-radial-[at_50%_5%] from-[#D1E1EC]/45 to-zinc-100 to-70% sm:to-50% dark:from-[#00101C] dark:to-zinc-950">
       {/* Overlay */}
       <Image
+        preload={true}
         src={rays}
         alt="Light Rays overlay"
+        sizes="100vw"
         className="absolute inset-0 h-screen w-screen mask-b-from-0 object-cover opacity-70 mix-blend-screen dark:opacity-5"
-        priority
       />
 
-      <main className="relative flex h-svh min-h-fit w-full max-w-4xl flex-col items-center justify-center gap-10 px-10 py-12 sm:gap-20 sm:px-16 lg:py-22">
+      <main className="relative flex h-svh min-h-fit w-full max-w-xl flex-col items-center justify-center gap-10 px-10 py-12 sm:max-w-7xl sm:gap-20 sm:px-16 lg:py-22">
         {/* Animated Ava Icon */}
         <Image
-          className="z-10 block h-24 w-auto rounded-3xl shadow-2xl shadow-sky-800/50 dark:hidden"
+          preload={true}
           src={iconLight}
           alt="Ava Icon Light"
-          priority
+          width={168}
+          height={168}
+          sizes="168px"
+          className="z-10 block h-24 w-auto rounded-3xl shadow-2xl shadow-sky-800/50 dark:hidden"
         />
         <Image
-          className="animate-2 z-10 hidden h-24 w-auto rounded-3xl shadow-2xl shadow-sky-500/30 dark:block"
+          preload={true}
           src={iconDark}
           alt="Ava Icon Dark"
-          priority
+          width={168}
+          height={168}
+          sizes="168px"
+          className="animate-2 z-10 hidden h-24 w-auto rounded-3xl shadow-2xl shadow-sky-500/30 dark:block"
         />
 
         {/* Hero */}
@@ -108,7 +115,7 @@ export default function Home() {
           <p className="font-semibold tracking-tight text-zinc-600 dark:text-zinc-400">
             {t("compatibility.headline")}
           </p>
-          <div className="relative flex flex-wrap items-center justify-center gap-4 sm:gap-6">
+          <div className="relative flex flex-wrap items-center justify-evenly gap-y-4 sm:gap-6">
             {compatibilityCards.map((card, i) => (
               <CompatibilityCard
                 key={i}
@@ -186,15 +193,21 @@ export default function Home() {
             <p className="text-sm">&copy; {new Date().getFullYear()}</p>
             <div className="h-4 w-px -skew-12 bg-orange-600 dark:bg-orange-500"></div>
             <a
+              role="link"
               href="https://www.radobley.sk"
               target="_blank"
               rel="noopener noreferrer"
+              aria-label="Visit developer's website"
+              tabIndex={0}
             >
               <Image
-                className="h-4 w-auto dark:invert"
+                loading="lazy"
                 src={footerLogo}
                 alt="Radoslav Bley wide logo"
-                loading="lazy"
+                width={226}
+                height={32}
+                sizes="226px"
+                className="h-4 w-auto dark:invert"
               />
             </a>
           </div>

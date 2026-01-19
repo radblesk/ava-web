@@ -18,19 +18,24 @@ export default function Button({
 }: Props) {
   return (
     <a
-      className={`group border-foreground/10 bg-foreground/85 text-background hover:bg-foreground/65 flex h-12 w-full items-center justify-center gap-4 overflow-hidden rounded-full border px-5 font-semibold transition duration-300 sm:flex-1/3 md:w-39.5 ${disabled ? "pointer-events-none cursor-not-allowed opacity-50" : "cursor-pointer"}`}
+      role="button"
       href={url}
-      aria-disabled={disabled}
       target="_blank"
       rel="noopener noreferrer"
+      aria-disabled={disabled}
+      aria-label={alt}
+      aria-pressed="false"
+      tabIndex={0}
+      className={`group border-foreground/10 bg-foreground/85 text-background hover:bg-foreground/65 flex h-12 w-full items-center justify-center gap-4 overflow-hidden rounded-full border px-5 font-semibold transition duration-300 sm:flex-1/3 md:w-39.5 ${disabled ? "pointer-events-none cursor-not-allowed opacity-50" : "cursor-pointer"}`}
     >
       <Image
-        className={`invert transition dark:invert-0 ${disabled ? "opacity-50" : ""}`}
+        loading="lazy"
         src={`${symbol}.svg`}
         alt={alt}
-        width={16}
-        height={16}
-        loading="lazy"
+        width={40}
+        height={40}
+        sizes="40px"
+        className={`aspect-square h-5 w-auto invert transition dark:invert-0 ${disabled ? "opacity-50" : ""}`}
       />
       {title}
     </a>
