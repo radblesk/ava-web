@@ -58,16 +58,6 @@ export default function Home() {
 
   return (
     <div className="relative flex min-h-screen items-center justify-center overflow-y-auto bg-radial-[at_50%_5%] from-[#D1E1EC]/45 to-zinc-100 to-70% sm:to-50% dark:from-[#00101C] dark:to-zinc-950">
-      {/* Overlay */}
-      <Image
-        preload={true}
-        fetchPriority="high"
-        src={rays}
-        alt="Light Rays overlay"
-        sizes="100vw"
-        className="absolute inset-0 h-screen w-screen mask-b-from-0 object-cover opacity-70 mix-blend-screen dark:opacity-5"
-      />
-
       <main className="relative flex h-svh min-h-fit w-full max-w-xl flex-col items-center justify-center gap-10 px-10 py-12 sm:max-w-7xl sm:gap-20 sm:px-16 lg:py-22">
         {/* Animated Ava Icon */}
         <Image
