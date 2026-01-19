@@ -112,7 +112,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       siteName: t("title"),
       images: [
         {
-          url: "https://ava.radobley.com/opengraph-image.png", // Must be an absolute URL
+          url: "/opengraph-image.png",
           width: 1800,
           height: 1600,
         },
@@ -141,7 +141,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       card: "summary_large_image",
       title: t("title"),
       description: t("description"),
-      images: ["https://ava.radobley.com/twitter-image.jpg"], // Must be an absolute URL
+      images: ["/twitter-image.jpg"],
     },
 
     // Verification
