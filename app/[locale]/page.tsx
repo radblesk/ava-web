@@ -63,6 +63,7 @@ export default function Home() {
         src={rays}
         alt="Light Rays overlay"
         className="absolute inset-0 h-screen w-screen mask-b-from-0 object-cover opacity-70 mix-blend-screen dark:opacity-5"
+        priority
       />
 
       <main className="relative flex h-svh min-h-fit w-full max-w-4xl flex-col items-center justify-center gap-10 px-10 py-12 sm:gap-20 sm:px-16 lg:py-22">
@@ -193,7 +194,7 @@ export default function Home() {
                 className="h-4 w-auto dark:invert"
                 src={footerLogo}
                 alt="Radoslav Bley wide logo"
-                priority
+                loading="lazy"
               />
             </a>
           </div>

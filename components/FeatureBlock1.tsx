@@ -28,6 +28,7 @@ export default function FeatureBlock1() {
         src={screen}
         alt="Ava Screenshot 1"
         className="order-2 h-[80vh] w-auto"
+        loading="lazy"
       />
     </div>
   );
