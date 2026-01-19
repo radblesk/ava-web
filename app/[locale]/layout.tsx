@@ -70,7 +70,6 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       languages: {
         "cs-CZ": "/cs",
         "de-DE": "/de",
-        "en-US": "/en",
         "es-ES": "/es",
         "fr-FR": "/fr",
         "ja-JP": "/ja",
