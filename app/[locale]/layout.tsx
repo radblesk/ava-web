@@ -53,7 +53,6 @@ export function generateViewport(): Viewport {
     maximumScale: 5,
     viewportFit: "cover",
     userScalable: true,
-    interactiveWidget: "resizes-visual",
   };
 }
 
