@@ -43,13 +43,17 @@ const ogLocaleMap: Record<string, string> = {
 // MARK: - Viewport
 export function generateViewport(): Viewport {
   return {
-    themeColor: "black",
-    colorScheme: "dark",
+    themeColor: [
+      { media: "(prefers-color-scheme: light)", color: "#f4f4f5" },
+      { media: "(prefers-color-scheme: dark)", color: "#09090b" },
+    ],
+    colorScheme: "dark light",
     width: "device-width",
     initialScale: 1,
     maximumScale: 5,
     viewportFit: "cover",
     userScalable: true,
+    interactiveWidget: "resizes-visual",
   };
 }
 
