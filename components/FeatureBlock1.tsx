@@ -8,7 +8,7 @@ export default function FeatureBlock1() {
   const t = useTranslations("homepage.features.feature1");
 
   return (
-    <div className="grid grid-cols-1 place-items-center gap-20 sm:grid-cols-2">
+    <div className="grid grid-cols-1 place-items-center gap-y-12 sm:grid-cols-2">
       <div className="order-1 flex flex-col gap-10">
         <h2 className="text-3xl font-semibold tracking-tight">
           {t("headline")}
@@ -25,7 +25,7 @@ export default function FeatureBlock1() {
         </p>
       </div>
 
-      <div className="relative isolate drop-shadow-2xl order-2 flex">
+      <div className="relative isolate order-2 flex drop-shadow-2xl">
         <Image
           loading="lazy"
           src={bezel}
