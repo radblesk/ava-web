@@ -37,6 +37,10 @@
       "feature2": {
         "headline": "Built Native, Feels Different",
         "description": "No lag, no waiting—just <highlighted>smooth, instant responses</highlighted> that keep up with how fast you scroll. Native Swift means everything feels fluid and alive. Generous spacing, bigger media, <highlighted>colored depth indicators</highlighted> so you never lose track of comment threads. Full iPad support with proper split view. It just works the way you'd expect it to."
+      },
+      "feature3": {
+        "headline": "Designed for iPad",
+        "description": "Not just stretched—<highlighted>properly designed for iPad</highlighted>. A true <highlighted>two-column layout</highlighted> with a sidebar for subreddits and a focused detail view for feeds, posts, and comments. Full <highlighted>Split View and multitasking</highlighted> support, balanced spacing, and scaling that feel native on larger displays. Ava adapts to the canvas, not the other way around."
       }
     },
     "notice": "Ava is in <bold>active development</bold> and <bold>is not open-source (for now)</bold>. I am currently waiting for a follow-up on my API usage terms request to Reddit. Until then, the <highlighted>TestFlight link stays disabled</highlighted>.",

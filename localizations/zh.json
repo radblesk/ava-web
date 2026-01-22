@@ -37,6 +37,10 @@
       "feature2": {
         "headline": "原生开发，体验不同",
         "description": "没有卡顿，没有等待——只有<highlighted>流畅、即时的响应</highlighted>，跟得上你的滚动速度。原生 Swift 意味着一切都流畅而生动。宽敞的间距，更大的媒体预览，<highlighted>彩色深度指示器</highlighted>让你永远不会在评论串中迷失。完整支持 iPad 的分屏视图，不是简单拉伸。就是你期待的样子。"
+      },
+      "feature3": {
+        "headline": "为 iPad 设计",
+        "description": "不仅仅是拉伸—<highlighted>专为 iPad 精心设计</highlighted>。真正的<highlighted>双栏布局</highlighted>，带有用于 Subreddit 的侧边栏，以及专注的详情视图用于动态、帖子和评论。完全支持<highlighted>分屏视图和多任务处理</highlighted>，间距均衡，缩放自然，适合大屏显示。Ava 适应画布，而不是相反。"
       }
     },
     "notice": "Ava 正在<bold>积极开发中</bold>，<bold>暂未开源</bold>。我目前正在等待 Reddit 关于 API 使用条款申请的回复。在此之前，<highlighted>TestFlight 链接保持禁用状态</highlighted>。",

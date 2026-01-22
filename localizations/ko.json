@@ -37,6 +37,10 @@
       "feature2": {
         "headline": "네이티브로 만들어져서, 체감이 다릅니다",
         "description": "렉도 없고, 기다림도 없이—그저 <highlighted>부드럽고 즉각적인 반응</highlighted>이 당신의 스크롤 속도를 따라옵니다. 네이티브 Swift는 모든 것이 유동적이고 생생하게 느껴진다는 의미입니다. 넉넉한 간격, 더 큰 미디어 미리보기, <highlighted>색상으로 구분된 댓글 깊이 표시</highlighted>로 댓글 쓰레드를 절대 놓치지 않습니다. iPad에서는 제대로 된 스플릿 뷰를 완벽 지원합니다. 기대한 대로 작동합니다."
+      },
+      "feature3": {
+        "headline": "iPad를 위해 설계됨",
+        "description": "단순히 늘린 것이 아닙니다—<highlighted>iPad에 맞게 제대로 설계</highlighted>되었습니다. 서브레딧을 위한 사이드바와 피드, 게시물, 댓글에 집중할 수 있는 디테일 뷰를 갖춘 진정한 <highlighted>2열 레이아웃</highlighted>입니다. <highlighted>Split View 및 멀티태스킹</highlighted>을 완벽하게 지원하며, 균형 잡힌 여백과 대형 디스플레이에서도 네이티브하게 느껴지는 스케일링을 제공합니다. Ava는 화면에 맞춰 적응하며, 그 반대는 아닙니다."
       }
     },
     "notice": "Ava는 <bold>활발히 개발 중</bold>이며 <bold>오픈소스가 아닙니다(현재로서는)</bold>. 현재 Reddit에 API 사용 약관 요청에 대한 답변을 기다리고 있습니다. 그때까지 <highlighted>TestFlight 링크는 비활성화 상태</highlighted>로 유지됩니다.",

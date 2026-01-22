@@ -37,6 +37,10 @@
       "feature2": {
         "headline": "Nativní aplikace dělá rozdíl",
         "description": "Žádné zpomalení, žádné čekání—jen <highlighted>plynulé, okamžité odezvy</highlighted>, které drží krok s tím, jak rychle scrollujete. Nativní Swift znamená, že všechno působí plynule a živě. Štědrá mezera, větší média, <highlighted>barevné indikátory hloubky</highlighted>, takže nikdy neztratíte přehled o vláknech komentářů. Plná podpora iPadu s řádným split view. Prostě to funguje tak, jak byste čekali."
+      },
+      "feature3": {
+        "headline": "Navrženo pro iPad",
+        "description": "Ne jen roztažené—<highlighted>skutečně navržené pro iPad</highlighted>. Opravdové <highlighted>dvousloupcové rozložení</highlighted> s postranním panelem pro subreddity a soustředěným detailním zobrazením feedů, příspěvků a komentářů. Plná podpora <highlighted>Split View a multitaskingu</highlighted>, vyvážené rozestupy a škálování, které působí nativně na větších displejích. Ava se přizpůsobuje ploše, ne naopak."
       }
     },
     "notice": "Ava je v <bold>aktivním vývoji</bold> a <bold>není open-source (zatím)</bold>. Momentálně čekám na odpověď ohledně mé žádosti o podmínky užívání API od Redditu. Do té doby <highlighted>zůstává odkaz na TestFlight vypnutý</highlighted>.",
