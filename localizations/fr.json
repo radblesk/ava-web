@@ -37,6 +37,10 @@
       "feature2": {
         "headline": "Natif de bout en bout, ça change tout",
         "description": "Pas de lag, pas d'attente—juste des <highlighted>réponses fluides et instantanées</highlighted> qui suivent votre rythme de défilement. Le Swift natif, ça veut dire que tout est fluide et vivant. Espacement généreux, aperçus médias agrandis, <highlighted>indicateurs de profondeur colorés</highlighted> pour ne jamais perdre le fil des commentaires. Support iPad complet avec split view digne de ce nom. Ça marche comme vous l'attendez."
+      },
+      "feature3": {
+        "headline": "Conçu pour iPad",
+        "description": "Pas simplement étiré—<highlighted>réellement conçu pour iPad</highlighted>. Une véritable <highlighted>mise en page à deux colonnes</highlighted> avec une barre latérale pour les subreddits et une vue détaillée centrée sur les flux, les publications et les commentaires. Prise en charge complète de la <highlighted>Split View et du multitâche</highlighted>, des espacements équilibrés et une mise à l’échelle qui paraît native sur les grands écrans. Ava s’adapte à l’espace, et non l’inverse."
       }
     },
     "notice": "Ava est en <bold>développement actif</bold> et <bold>n'est pas open source (pour l'instant)</bold>. J'attends actuellement une réponse concernant ma demande de conditions d'utilisation de l'API auprès de Reddit. En attendant, <highlighted>le lien TestFlight reste désactivé</highlighted>.",

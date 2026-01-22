@@ -1,14 +1,14 @@
 import Image from "next/image";
 
-// Image Import
-import screen from "@/public/screen2.webp";
+// Media Import
+import bezel from "@/public/bezel-portrait.png";
 import { useTranslations } from "next-intl";
 
 export default function FeatureBlock2() {
   const t = useTranslations("homepage.features.feature2");
 
   return (
-    <div className="grid w-full grid-cols-1 place-items-center gap-10 sm:grid-cols-2">
+    <div className="grid w-full grid-cols-1 place-items-center gap-y-12 sm:grid-cols-2">
       <div className="order-1 flex flex-col gap-10 sm:order-2">
         <h2 className="text-3xl font-semibold tracking-tight">
           {t("headline")}
@@ -24,15 +24,28 @@ export default function FeatureBlock2() {
           })}
         </p>
       </div>
-      <Image
-        loading="lazy"
-        src={screen}
-        alt="Ava Screenshot 2"
-        width={565}
-        height={1152}
-        sizes="(max-width: 640px) 100vw, 565px"
-        className="order-2 aspect-auto max-h-[80vh] w-auto sm:order-1"
-      />
+
+      <div className="relative isolate order-1 flex drop-shadow-2xl">
+        <Image
+          loading="lazy"
+          src={bezel}
+          alt=""
+          width={565}
+          height={1152}
+          sizes="(max-width: 640px) 100vw, 565px"
+          className="z-10 h-[80vh] max-h-200 w-auto"
+        />
+        <div className="absolute top-1/2 left-1/2 z-0 aspect-9/16 h-[96%] w-[90%] -translate-1/2 overflow-hidden rounded-[6%]">
+          <video
+            src="/ava-showcase720.webm"
+            autoPlay
+            loop
+            muted
+            playsInline
+            className="h-full w-full object-cover"
+          ></video>
+        </div>
+      </div>
     </div>
   );
 }

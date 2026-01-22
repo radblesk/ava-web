@@ -8,11 +8,11 @@ import SectionHeader from "@/components/SectionHeader";
 import FeatureBlock1 from "@/components/FeatureBlock1";
 import FeatureBlock2 from "@/components/FeatureBlock2";
 
-// Images Imports
+// Media Imports
 import iconDark from "@/public/icon-dark.webp";
 import iconLight from "@/public/icon-light.webp";
 import footerLogo from "@/public/wide-dark.svg";
-import rays from "@/public/rays.webp";
+import FeatureBlock3 from "@/components/FeatureBlock3";
 
 export default function Home() {
   // Translations
@@ -58,7 +58,7 @@ export default function Home() {
 
   return (
     <div className="relative flex min-h-screen items-center justify-center overflow-y-auto bg-radial-[at_50%_5%] from-[#D1E1EC]/45 to-zinc-100 to-70% sm:to-50% dark:from-[#00101C] dark:to-zinc-950">
-      <main className="relative flex h-svh min-h-fit w-full max-w-xl flex-col items-center justify-center gap-10 px-10 py-12 sm:max-w-7xl sm:gap-20 sm:px-16 lg:py-22">
+      <main className="relative flex h-svh min-h-fit w-full max-w-xl flex-col items-center justify-center gap-10 px-6 py-12 sm:max-w-7xl sm:gap-20 sm:px-16 lg:py-22">
         {/* Animated Ava Icon */}
         <Image
           preload={true}
@@ -80,8 +80,8 @@ export default function Home() {
         />
 
         {/* Hero */}
-        <div className="z-10 flex flex-col items-center gap-6 text-center">
-          <h1 className="flex max-w-xs gap-2 text-3xl leading-10 font-semibold tracking-tight text-black dark:text-zinc-50">
+        <section className="z-10 flex max-w-xl flex-col items-center gap-6 text-center">
+          <h1 className="flex gap-2 text-3xl leading-10 font-semibold tracking-tight text-black dark:text-zinc-50">
             {t.rich("hero.headline", {
               super: (chunks) => (
                 <span className="text-base text-orange-600 dark:text-orange-500">
@@ -90,7 +90,7 @@ export default function Home() {
               ),
             })}
           </h1>
-          <p className="max-w-lg text-lg leading-6 text-balance text-zinc-600 sm:leading-7 dark:text-zinc-400">
+          <p className="text-lg leading-6 text-balance text-zinc-600 sm:leading-7 dark:text-zinc-400">
             {t.rich("hero.subheadline", {
               highlighted: (chunks) => (
                 <span className="font-medium text-zinc-950 dark:text-zinc-50">
@@ -99,10 +99,10 @@ export default function Home() {
               ),
             })}
           </p>
-        </div>
+        </section>
 
         {/* Compatibility Cards */}
-        <div className="flex flex-col justify-center gap-6 text-center">
+        <section className="flex flex-col justify-center gap-6 text-center">
           <p className="font-semibold tracking-tight text-zinc-600 dark:text-zinc-400">
             {t("compatibility.headline")}
           </p>
@@ -120,61 +120,64 @@ export default function Home() {
           <p className="pt-2 text-xs text-zinc-600 dark:text-zinc-400">
             *{t("compatibility.footer")}
           </p>
-        </div>
+        </section>
 
         {/* Divider */}
         <div className="bg-foreground my-16 h-px w-full mask-x-from-0"></div>
 
         {/* Features */}
-        <div className="relative flex max-w-screen flex-wrap items-center justify-center gap-16">
+        <section className="relative flex max-w-screen flex-wrap items-center justify-center gap-32">
           <SectionHeader text={headers[0].text ?? ""} />
 
           <FeatureBlock1 />
           <FeatureBlock2 />
-        </div>
+          <FeatureBlock3 />
+        </section>
 
         {/* Divider */}
         <div className="bg-foreground my-16 h-px w-full mask-x-from-0"></div>
 
-        {/* Notice */}
-        <div className="relative flex w-full justify-center">
-          <SectionHeader text={headers[1].text ?? ""} />
+        <section className="flex flex-col gap-12">
+          {/* Notice */}
+          <div className="relative flex w-full justify-center">
+            <SectionHeader text={headers[1].text ?? ""} />
 
-          <p className="relative max-w-md text-center text-base text-zinc-600 dark:text-zinc-400">
-            {t.rich("notice", {
-              bold: (chunks) => (
-                <span className="font-medium text-zinc-950 dark:text-zinc-50">
-                  {chunks}
-                </span>
-              ),
-              highlighted: (chunks) => (
-                <span className="font-medium text-orange-600 dark:text-orange-500">
-                  {chunks}
-                </span>
-              ),
-            })}
-          </p>
-        </div>
+            <p className="relative max-w-md text-center text-base text-zinc-600 dark:text-zinc-400">
+              {t.rich("notice", {
+                bold: (chunks) => (
+                  <span className="font-medium text-zinc-950 dark:text-zinc-50">
+                    {chunks}
+                  </span>
+                ),
+                highlighted: (chunks) => (
+                  <span className="font-medium text-orange-600 dark:text-orange-500">
+                    {chunks}
+                  </span>
+                ),
+              })}
+            </p>
+          </div>
 
-        {/* Buttons */}
-        <div className="z-10 flex max-w-sm flex-wrap gap-4 text-base font-medium sm:max-w-lg">
-          {buttonKeys.map((key) => (
-            <Button
-              key={key}
-              title={t(`buttons.${key}.title`)}
-              url={t(`buttons.${key}.link`)}
-              symbol={t(`buttons.${key}.symbol`)}
-              alt={t(`buttons.${key}.alt`)}
-              disabled={t(`buttons.${key}.disabled`) === "true"}
-            />
-          ))}
-        </div>
+          {/* Buttons */}
+          <div className="z-10 flex max-w-sm flex-wrap gap-4 text-base font-medium sm:max-w-lg">
+            {buttonKeys.map((key) => (
+              <Button
+                key={key}
+                title={t(`buttons.${key}.title`)}
+                url={t(`buttons.${key}.link`)}
+                symbol={t(`buttons.${key}.symbol`)}
+                alt={t(`buttons.${key}.alt`)}
+                disabled={t(`buttons.${key}.disabled`) === "true"}
+              />
+            ))}
+          </div>
+        </section>
 
         {/* Divider */}
         <div className="bg-foreground my-16 h-px w-full mask-x-from-0"></div>
 
         {/* Footer */}
-        <div className="relative flex max-w-md flex-col items-center gap-8 text-center text-xs text-zinc-600 dark:text-zinc-400">
+        <footer className="relative flex max-w-md flex-col items-center gap-8 text-center text-xs text-zinc-600 dark:text-zinc-400">
           <SectionHeader text={headers[2].text ?? ""} />
           <p>{t("footer.affiliate")}</p>
 
@@ -203,7 +206,7 @@ export default function Home() {
             </a>
           </div>
           <p>{t("footer.reserved")}</p>
-        </div>
+        </footer>
       </main>
     </div>
   );

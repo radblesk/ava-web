@@ -37,6 +37,10 @@
       "feature2": {
         "headline": "ネイティブ設計だから、体感が違う",
         "description": "ラグもなく、待ち時間もなく—ただ<highlighted>スムーズで即座のレスポンス</highlighted>が、あなたのスクロール速度についてきます。ネイティブSwiftだからこそ、すべてが滑らかで生き生きと動きます。ゆとりのある間隔、大きなメディアプレビュー、<highlighted>色分けされた階層インジケーター</highlighted>でコメントツリーを見失うことはありません。iPadでは本格的なスプリットビューに完全対応。期待通りに、ただ動きます。"
+      },
+      "feature3": {
+        "headline": "iPad向けに設計",
+        "description": "単に引き伸ばしただけではありません。<highlighted>iPadのために本格的に設計</highlighted>されています。サブレディット用のサイドバーと、フィード、投稿、コメントに集中できる詳細ビューを備えた、真の<highlighted>2カラムレイアウト</highlighted>。<highlighted>Split Viewとマルチタスク</highlighted>への完全対応、バランスの取れた余白、大画面でもネイティブに感じられるスケーリング。Avaはキャンバスに適応し、逆ではありません。"
       }
     },
     "notice": "Avaは<bold>現在開発中</bold>で、<bold>オープンソースではありません(今のところ)</bold>。現在、RedditへのAPI利用規約に関するリクエストの返答待ちです。それまで<highlighted>TestFlightリンクは無効</highlighted>のままとなります。",
