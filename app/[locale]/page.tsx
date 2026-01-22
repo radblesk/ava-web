@@ -8,11 +8,10 @@ import SectionHeader from "@/components/SectionHeader";
 import FeatureBlock1 from "@/components/FeatureBlock1";
 import FeatureBlock2 from "@/components/FeatureBlock2";
 
-// Images Imports
+// Media Imports
 import iconDark from "@/public/icon-dark.webp";
 import iconLight from "@/public/icon-light.webp";
 import footerLogo from "@/public/wide-dark.svg";
-import rays from "@/public/rays.webp";
 import FeatureBlock3 from "@/components/FeatureBlock3";
 
 export default function Home() {

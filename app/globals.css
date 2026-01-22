@@ -2,8 +2,8 @@
 @import "tailwindcss-animated";
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --background: oklch(96.7% 0.001 286.375);
+  --foreground: oklch(14.1% 0.005 285.823);
 }
 
 @theme inline {
@@ -16,14 +16,15 @@
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+    --background: oklch(14.1% 0.005 285.823);
+    --foreground: oklch(98.5% 0 0);
   }
 }
 
 body {
   color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  background: var(--background);
+  /* font-family: Arial, Helvetica, sans-serif; */
 }
 
 nav {
