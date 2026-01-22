@@ -1,5 +1,5 @@
 import type { Metadata, Viewport } from "next";
-import { Geist, Geist_Mono } from "next/font/google";
+import { Reddit_Mono, Reddit_Sans } from "next/font/google";
 import "@/app/globals.css";
 import { hasLocale, NextIntlClientProvider } from "next-intl";
 import { routing } from "@/i18n/routing";
@@ -15,13 +15,13 @@ type Props = {
 };
 
 // Fonts
-const geistSans = Geist({
-  variable: "--font-geist-sans",
+const avaSans = Reddit_Sans({
+  variable: "--font-ava-sans",
   subsets: ["latin"],
 });
 
-const geistMono = Geist_Mono({
-  variable: "--font-geist-mono",
+const avaMono = Reddit_Mono({
+  variable: "--font-ava-mono",
   subsets: ["latin"],
 });
 
@@ -195,7 +195,7 @@ export default async function LocaleLayout({ children, params }: Props) {
         />
       </head>
       <body
-        className={`${geistSans.variable} ${geistMono.variable} bg-zinc-100 font-sans antialiased select-none dark:bg-zinc-950`}
+        className={`${avaSans.variable} ${avaMono.variable} font-sans antialiased select-none`}
       >
         <Navbar />
         <NextIntlClientProvider>{children}</NextIntlClientProvider>
