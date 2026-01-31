@@ -1,3 +1,13 @@
+/*
+ * layout.tsx
+ * ava-dev
+ *
+ * Next.js
+ *
+ * Created by Radoslav Bley
+ * Copyright © 2026 Radoslav Bley. All Rights Reserved.
+ */
+
 import type { Metadata, Viewport } from "next";
 import { Reddit_Mono, Reddit_Sans } from "next/font/google";
 import "@/app/globals.css";
