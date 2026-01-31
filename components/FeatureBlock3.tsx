@@ -1,3 +1,13 @@
+/*
+ * FeatureBlock3.tsx
+ * ava-dev
+ *
+ * Next.js
+ *
+ * Created by Radoslav Bley
+ * Copyright © 2026 Radoslav Bley. All Rights Reserved.
+ */
+
 import Image from "next/image";
 
 // Media Import
@@ -34,7 +44,7 @@ export default function FeatureBlock3() {
           width={1890}
           height={1450}
           sizes="1890px"
-          className="z-10 aspect-auto drop-shadow-2xl h-auto max-h-200 w-full"
+          className="z-10 aspect-auto h-auto max-h-[80svh] w-full drop-shadow-2xl"
         />
         <div className="absolute top-1/2 left-1/2 z-0 aspect-9/16 h-[90%] w-[92%] -translate-1/2 overflow-hidden">
           <Image
