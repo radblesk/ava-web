@@ -12,50 +12,50 @@
 @import "tailwindcss-animated";
 
 :root {
-    --background: oklch(96.7% 0.001 286.375);
-    --foreground: oklch(14.1% 0.005 285.823);
+  --background: oklch(96.7% 0.001 286.375);
+  --foreground: oklch(14.1% 0.005 285.823);
 }
 
 @theme inline {
-    --color-background: var(--background);
-    --color-foreground: var(--foreground);
-    --font-sans: var(--font-ava-sans);
-    --font-mono: var(--font-ava-mono);
-    --animate-flicker: flicker 3s linear infinite;
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-sans: var(--font-ava-sans);
+  --font-mono: var(--font-ava-mono);
+  --animate-flicker: flicker 3s linear infinite;
 }
 
 @media (prefers-color-scheme: dark) {
-    :root {
-        --background: oklch(14.1% 0.005 285.823);
-        --foreground: oklch(98.5% 0 0);
-    }
+  :root {
+    --background: oklch(14.1% 0.005 285.823);
+    --foreground: oklch(98.5% 0 0);
+  }
 }
 
 body {
-    color: var(--foreground);
-    background: var(--background);
-    /* font-family: Arial, Helvetica, sans-serif; */
+  color: var(--foreground);
+  background: var(--background);
+  /* font-family: Arial, Helvetica, sans-serif; */
 }
 
 nav {
-    padding-right: calc(env(safe-area-inset-right) + 1rem);
-    padding-left: calc(env(safe-area-inset-left) + 1rem);
+  padding-right: calc(env(safe-area-inset-right) + 1rem);
+  padding-left: calc(env(safe-area-inset-left) + 1rem);
 }
 
 @keyframes flicker {
-    0%,
-    19%,
-    21%,
-    23%,
-    25%,
-    54%,
-    56%,
-    100% {
-        opacity: 1;
-    }
-    20%,
-    24%,
-    55% {
-        opacity: 0.4;
-    }
+  0%,
+  19%,
+  21%,
+  23%,
+  25%,
+  54%,
+  56%,
+  100% {
+    opacity: 1;
+  }
+  20%,
+  24%,
+  55% {
+    opacity: 0.4;
+  }
 }
