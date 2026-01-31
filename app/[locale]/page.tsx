@@ -1,3 +1,13 @@
+/*
+ * page.tsx
+ * ava-dev
+ *
+ * Next.js
+ *
+ * Created by Radoslav Bley
+ * Copyright © 2026 Radoslav Bley. All Rights Reserved.
+ */
+
 import { useTranslations } from "next-intl";
 import Image from "next/image";
 
@@ -9,8 +19,8 @@ import FeatureBlock1 from "@/components/FeatureBlock1";
 import FeatureBlock2 from "@/components/FeatureBlock2";
 
 // Media Imports
-import iconDark from "@/public/icon-dark.webp";
-import iconLight from "@/public/icon-light.webp";
+import iconDark from "@/public/icon-dark.png";
+import iconLight from "@/public/icon-light.png";
 import footerLogo from "@/public/wide-dark.svg";
 import FeatureBlock3 from "@/components/FeatureBlock3";
 
