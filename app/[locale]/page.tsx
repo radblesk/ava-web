@@ -21,7 +21,6 @@ import FeatureBlock2 from "@/components/FeatureBlock2";
 // Media Imports
 import iconDark from "@/public/icon-dark.png";
 import iconLight from "@/public/icon-light.png";
-import footerLogo from "@/public/wide-dark.svg";
 import FeatureBlock3 from "@/components/FeatureBlock3";
 
 export default function Home() {
@@ -182,41 +181,6 @@ export default function Home() {
             ))}
           </div>
         </section>
-
-        {/* Divider */}
-        <div className="bg-foreground my-16 h-px w-full mask-x-from-0"></div>
-
-        {/* Footer */}
-        <footer className="relative flex max-w-md flex-col items-center gap-8 text-center text-xs text-zinc-600 dark:text-zinc-400">
-          <SectionHeader text={headers[2].text ?? ""} />
-          <p>{t("footer.affiliate")}</p>
-
-          <p>{t("footer.appleTrademark")}</p>
-
-          <div className="flex items-center justify-center gap-4">
-            <p className="text-sm">&copy; {new Date().getFullYear()}</p>
-            <div className="h-4 w-px -skew-12 bg-orange-600 dark:bg-orange-500"></div>
-            <a
-              role="link"
-              href="https://www.radobley.sk"
-              target="_blank"
-              rel="noopener noreferrer"
-              aria-label="Visit developer's website"
-              tabIndex={0}
-            >
-              <Image
-                loading="lazy"
-                src={footerLogo}
-                alt="Radoslav Bley wide logo"
-                width={226}
-                height={32}
-                sizes="226px"
-                className="h-4 w-auto dark:invert"
-              />
-            </a>
-          </div>
-          <p>{t("footer.reserved")}</p>
-        </footer>
       </main>
     </div>
   );
