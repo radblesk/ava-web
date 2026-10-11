@@ -52,11 +52,11 @@
         "alt": "TestFlight Button",
         "disabled": "true"
       },
-      "subreddit": {
-        "title": "r/AvaApp",
-        "symbol": "reddit",
-        "link": "https://www.reddit.com/r/AvaApp",
-        "alt": "Subreddit Button",
+      "discord": {
+        "title": "Discord",
+        "symbol": "discord",
+        "link": "https://discord.gg/Yh3E2YYrKu",
+        "alt": "Discord Button",
         "disabled": "false"
       },
       "github": {

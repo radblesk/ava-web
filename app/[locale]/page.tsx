@@ -149,24 +149,24 @@ export default function Home() {
 
         <section className="flex flex-col gap-12">
           {/* Notice */}
-          <div className="relative flex w-full justify-center">
-            <SectionHeader text={headers[1].text ?? ""} />
+          {/*<div className="relative flex w-full justify-center">*/}
+          {/*  <SectionHeader text={headers[1].text ?? ""} />*/}
 
-            <p className="relative max-w-md text-center text-base text-zinc-600 dark:text-zinc-400">
-              {t.rich("notice", {
-                bold: (chunks) => (
-                  <span className="font-medium text-zinc-950 dark:text-zinc-50">
-                    {chunks}
-                  </span>
-                ),
-                highlighted: (chunks) => (
-                  <span className="font-medium text-orange-600 dark:text-orange-500">
-                    {chunks}
-                  </span>
-                ),
-              })}
-            </p>
-          </div>
+          {/*  <p className="relative max-w-md text-center text-base text-zinc-600 dark:text-zinc-400">*/}
+          {/*    {t.rich("notice", {*/}
+          {/*      bold: (chunks) => (*/}
+          {/*        <span className="font-medium text-zinc-950 dark:text-zinc-50">*/}
+          {/*          {chunks}*/}
+          {/*        </span>*/}
+          {/*      ),*/}
+          {/*      highlighted: (chunks) => (*/}
+          {/*        <span className="font-medium text-orange-600 dark:text-orange-500">*/}
+          {/*          {chunks}*/}
+          {/*        </span>*/}
+          {/*      ),*/}
+          {/*    })}*/}
+          {/*  </p>*/}
+          {/*</div>*/}
 
           {/* Buttons */}
           <div className="z-10 flex max-w-sm flex-wrap gap-4 text-base font-medium sm:max-w-lg">

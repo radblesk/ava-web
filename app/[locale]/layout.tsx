@@ -158,7 +158,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       other: {
         me: [
           "mailto:support@radobley.com",
-          "mailto:info@radobley.com",
+          "mailto:feedback@radobley.com",
           "https://www.radobley.com",
           "https://www.radobley.sk",
         ],
