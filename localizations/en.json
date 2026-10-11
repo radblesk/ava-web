@@ -77,7 +77,12 @@
     "footer": {
       "affiliate": "Ava is an independent third-party client and is not affiliated with, endorsed by, or connected to Reddit, Inc.",
       "reserved": "All Rights Reserved.",
-      "appleTrademark": "Apple TV, Apple Watch, iPad, iPad Air, iPhone, iPod, and iPod touch are trademarks of Apple Inc., registered in the U.S. and other countries."
+      "appleTrademark": "Apple TV, Apple Watch, iPad, iPad Air, iPhone, iPod, and iPod touch are trademarks of Apple Inc., registered in the U.S. and other countries.",
+      "privacyPolicyLink": "Privacy Policy",
+      "releaseNotesLink": "Release Notes"
     }
+  },
+  "releaseNotes": {
+    "header": "Release Notes"
   }
 }
