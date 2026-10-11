@@ -10,7 +10,7 @@ export default function Navbar() {
   return (
     <nav className="sticky top-0 z-50 flex h-14 w-full items-center justify-center border-b border-zinc-200 bg-zinc-100/75 py-4 backdrop-blur-lg backdrop-saturate-150 dark:border-zinc-800 dark:bg-zinc-950/75">
       <div className="relative flex h-full w-full max-w-7xl items-center justify-between">
-        <div className="flex h-full w-fit items-center gap-3">
+        <a href="/" className="flex h-full w-fit items-center gap-3">
           <Image
             preload={true}
             src={rbLogo}
@@ -22,7 +22,7 @@ export default function Navbar() {
           />
           <div className="bg-foreground h-full w-px -skew-12"></div>
           <h1 className="text-xl font-medium sm:text-2xl">Ava for Reddit</h1>
-        </div>
+        </a>
 
         <div className="flex items-center gap-3">
           <div className="relative h-1.5 w-1.5 rounded-full bg-green-600">
