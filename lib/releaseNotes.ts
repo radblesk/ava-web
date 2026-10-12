@@ -1,8 +1,8 @@
 export const latestVersion = "v1.0";
-export const latestBuild = "1"
+export const latestBuild = "2"
 
 export const releaseNotes: Record<string, string> = {
-  "v1.0 (1)": `
+  "v1.0 (2)": `
 ## Welcome to build ${latestBuild}!
 
 ### What to test?
