@@ -21,7 +21,6 @@ import FeatureBlock2 from "@/components/FeatureBlock2";
 // Media Imports
 import iconDark from "@/public/icon-dark.png";
 import iconLight from "@/public/icon-light.png";
-import footerLogo from "@/public/wide-dark.svg";
 import FeatureBlock3 from "@/components/FeatureBlock3";
 
 export default function Home() {
@@ -149,24 +148,24 @@ export default function Home() {
 
         <section className="flex flex-col gap-12">
           {/* Notice */}
-          <div className="relative flex w-full justify-center">
-            <SectionHeader text={headers[1].text ?? ""} />
+          {/*<div className="relative flex w-full justify-center">*/}
+          {/*  <SectionHeader text={headers[1].text ?? ""} />*/}
 
-            <p className="relative max-w-md text-center text-base text-zinc-600 dark:text-zinc-400">
-              {t.rich("notice", {
-                bold: (chunks) => (
-                  <span className="font-medium text-zinc-950 dark:text-zinc-50">
-                    {chunks}
-                  </span>
-                ),
-                highlighted: (chunks) => (
-                  <span className="font-medium text-orange-600 dark:text-orange-500">
-                    {chunks}
-                  </span>
-                ),
-              })}
-            </p>
-          </div>
+          {/*  <p className="relative max-w-md text-center text-base text-zinc-600 dark:text-zinc-400">*/}
+          {/*    {t.rich("notice", {*/}
+          {/*      bold: (chunks) => (*/}
+          {/*        <span className="font-medium text-zinc-950 dark:text-zinc-50">*/}
+          {/*          {chunks}*/}
+          {/*        </span>*/}
+          {/*      ),*/}
+          {/*      highlighted: (chunks) => (*/}
+          {/*        <span className="font-medium text-orange-600 dark:text-orange-500">*/}
+          {/*          {chunks}*/}
+          {/*        </span>*/}
+          {/*      ),*/}
+          {/*    })}*/}
+          {/*  </p>*/}
+          {/*</div>*/}
 
           {/* Buttons */}
           <div className="z-10 flex max-w-sm flex-wrap gap-4 text-base font-medium sm:max-w-lg">
@@ -182,41 +181,6 @@ export default function Home() {
             ))}
           </div>
         </section>
-
-        {/* Divider */}
-        <div className="bg-foreground my-16 h-px w-full mask-x-from-0"></div>
-
-        {/* Footer */}
-        <footer className="relative flex max-w-md flex-col items-center gap-8 text-center text-xs text-zinc-600 dark:text-zinc-400">
-          <SectionHeader text={headers[2].text ?? ""} />
-          <p>{t("footer.affiliate")}</p>
-
-          <p>{t("footer.appleTrademark")}</p>
-
-          <div className="flex items-center justify-center gap-4">
-            <p className="text-sm">&copy; {new Date().getFullYear()}</p>
-            <div className="h-4 w-px -skew-12 bg-orange-600 dark:bg-orange-500"></div>
-            <a
-              role="link"
-              href="https://www.radobley.sk"
-              target="_blank"
-              rel="noopener noreferrer"
-              aria-label="Visit developer's website"
-              tabIndex={0}
-            >
-              <Image
-                loading="lazy"
-                src={footerLogo}
-                alt="Radoslav Bley wide logo"
-                width={226}
-                height={32}
-                sizes="226px"
-                className="h-4 w-auto dark:invert"
-              />
-            </a>
-          </div>
-          <p>{t("footer.reserved")}</p>
-        </footer>
       </main>
     </div>
   );

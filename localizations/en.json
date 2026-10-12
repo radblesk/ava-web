@@ -32,11 +32,11 @@
     "features": {
       "feature1": {
         "headline": "Your Reddit, Your Way",
-        "description": "Customize what other apps won't let you touch. Pick your <highlighted>themes</highlighted>, tweak post spacing and padding, hide voting buttons if they're in your way. Want subreddit info at the top? Bottom? Done. Switch between <highlighted>full and compact styles</highlighted> whenever you feel like it.<br></br><br></br><highlighted>Filter out the noise:</highlighted> block users completely, filter by keywords in titles or flairs, hide entire subreddits from your feeds. See only what you want to see."
+        "description": "Customize what other apps won't let you touch. Pick your <highlighted>style</highlighted>, tweak post spacing and padding, hide voting buttons if they're in your way. Want subreddit info at the top? Bottom? Done. Switch between <highlighted>full and compact styles</highlighted> whenever you feel like it.<br></br><br></br><highlighted>Filter out the noise:</highlighted> block users completely, filter by keywords in titles or flairs, hide entire subreddits from your feeds. See only what you want to see."
       },
       "feature2": {
         "headline": "Built Native, Feels Different",
-        "description": "No lag, no waiting—just <highlighted>smooth, instant responses</highlighted> that keep up with how fast you scroll. Native Swift means everything feels fluid and alive. Generous spacing, bigger media, <highlighted>colored depth indicators</highlighted> so you never lose track of comment threads. Full iPad support with proper split view. It just works the way you'd expect it to."
+        "description": "No lag, no waiting—just <highlighted>smooth, instant responses</highlighted> that keep up with how fast you scroll. Everything feels fluid and alive. Generous spacing, bigger media, <highlighted>colored depth indicators</highlighted> so you never lose track of comment threads. Full iPad support with proper split view. It just works the way you'd expect it to. <br></br><br></br><highlighted>iPhone Duo support coming soon.</highlighted>"
       },
       "feature3": {
         "headline": "Designed for iPad",
@@ -52,11 +52,11 @@
         "alt": "TestFlight Button",
         "disabled": "true"
       },
-      "subreddit": {
-        "title": "r/AvaApp",
-        "symbol": "reddit",
-        "link": "https://www.reddit.com/r/AvaApp",
-        "alt": "Subreddit Button",
+      "discord": {
+        "title": "Discord",
+        "symbol": "discord",
+        "link": "https://discord.gg/Yh3E2YYrKu",
+        "alt": "Discord Button",
         "disabled": "false"
       },
       "github": {
@@ -77,7 +77,12 @@
     "footer": {
       "affiliate": "Ava is an independent third-party client and is not affiliated with, endorsed by, or connected to Reddit, Inc.",
       "reserved": "All Rights Reserved.",
-      "appleTrademark": "Apple TV, Apple Watch, iPad, iPad Air, iPhone, iPod, and iPod touch are trademarks of Apple Inc., registered in the U.S. and other countries."
+      "appleTrademark": "Apple TV, Apple Watch, iPad, iPad Air, iPhone, iPod, and iPod touch are trademarks of Apple Inc., registered in the U.S. and other countries.",
+      "privacyPolicyLink": "Privacy Policy",
+      "releaseNotesLink": "Release Notes"
     }
+  },
+  "releaseNotes": {
+    "header": "Release Notes"
   }
 }

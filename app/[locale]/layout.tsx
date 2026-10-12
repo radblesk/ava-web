@@ -17,6 +17,7 @@ import { notFound } from "next/navigation";
 import { getTranslations } from "next-intl/server";
 import { Analytics } from "@vercel/analytics/next";
 import Navbar from "@/components/Navbar";
+import Footer from "@/components/Footer";
 
 // Types
 type Props = {
@@ -158,7 +159,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       other: {
         me: [
           "mailto:support@radobley.com",
-          "mailto:info@radobley.com",
+          "mailto:feedback@radobley.com",
           "https://www.radobley.com",
           "https://www.radobley.sk",
         ],
@@ -209,6 +210,9 @@ export default async function LocaleLayout({ children, params }: Props) {
       >
         <Navbar />
         <NextIntlClientProvider>{children}</NextIntlClientProvider>
+        {/* Divider */}
+        <div className="bg-foreground my-16 h-px w-full mask-x-from-0"></div>
+        <Footer />
         <Analytics />
       </body>
     </html>
