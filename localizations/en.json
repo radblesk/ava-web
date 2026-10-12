@@ -48,7 +48,7 @@
       "testflight": {
         "title": "TestFlight",
         "symbol": "fan",
-        "link": "stop looking for the link",
+        "link": "https://testflight.apple.com/join/Ua9VHj99",
         "alt": "TestFlight Button",
         "disabled": "true"
       },
