@@ -50,7 +50,7 @@
         "symbol": "fan",
         "link": "https://testflight.apple.com/join/Ua9VHj99",
         "alt": "TestFlight Button",
-        "disabled": "true"
+        "disabled": "false"
       },
       "discord": {
         "title": "Discord",
