@@ -1,7 +1,11 @@
 export const latestVersion = "v1.0";
-export const latestBuild = "3";
+export const latestBuild = "4";
 
 export const releaseNotes: Record<string, string> = {
+  "v1.0 (4)": `
+  ### What's Changed
+* Fix third party services login
+  `,
   "v1.0 (3)": `
   ### What's Changed
 * Fixed missing URL when submitting a link post
