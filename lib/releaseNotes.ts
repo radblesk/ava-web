@@ -10,7 +10,7 @@ export const releaseNotes: Record<string, string> = {
 * Fix: changing tab or switching apps might throw 'cancellation' error when fetching trending subreddits
 * Fix: possible fix for some users experiencing app crashes during search autocomplete (report back)
 
-#### Features
+#### New Features
 * Feature: added 'Auto-Hide Toolbar' option to iPad (iPad's tab bar is persistent unlike iOS tab bar, so on iPad only top toolbar is hiding)
 * Feature: added option to expand all comments by default
 
