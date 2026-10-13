@@ -1,27 +1,50 @@
 export const latestVersion = "v1.0";
-export const latestBuild = "5";
+export const latestBuild = "6";
 
 export const releaseNotes: Record<string, string> = {
+  "v1.0 (6)": `
+  ### What's Changed
+#### Fixes
+* Fix: broken pagination in sidebar with more than 100 subreddits incorrectly fetching subreddits data
+* Fix: stale fetch operations prevent pull-to-refresh in feed views
+* Fix: changing tab or switching apps might throw 'cancellation' error when fetching trending subreddits
+* Fix: possible fix for some users experiencing app crashes during search autocomplete (report back)
+
+#### Features
+* Feature: added 'Auto-Hide Toolbar' option to iPad (iPad's tab bar is persistent unlike iOS tab bar, so on iPad only top toolbar is hiding)
+* Feature: added option to expand all comments by default
+
+#### Improvements
+* Improvement: Sentry privacy improvements
+* Improvement: increased legibility of post texts for both title and body (report back if not enough)
+
+#### Debug
+* Debug: added deeper tracking for posts hiding failures as they keep throwing Bad Request errors for some users
+* Debug: improved HTTP error tracking and fingerprinting
+
+### Want to see more app icons?
+- Share your creations in [Discord](https://discord.gg/Yh3E2YYrKu) server! I might pick yours in the next update!
+  `,
   "v1.0 (5)": `
 ## Bug fixing update based on users feedback and crash reports
 
 ### What's Changed
 #### Fixes
-* Fix: adding/removing value to user settings causing data error resulting in settings reset to default values by @radblesk
-* Fix: string catalog out of date, localized string typos by @radblesk
-* Fix: loading profile and trophies might cause render loop caused by recursive layout recalculations resulting in app crash by @radblesk
-* Fix: marking already read inbox/announcements messages as read, causes Reddit server to return error 400 by @radblesk
-* Fix: inbox list selection passing incorrect identifier, incorrect condition filtering out unread announcements by @radblesk
-* Fix: posts containing URL without host component causing a fatal crash by @radblesk
-* Fix: fetching moderator permissions for user, displaying only eligible actions for posts and comments by @radblesk
-* Fix: compact posts now respect subreddit on top and subreddit icon toggles by @radblesk
-* Fix: triggering scroll-to-comments sometimes skips entire comment section **(needs testing)** by @radblesk
+* Fix: adding/removing value to user settings causing data error resulting in settings reset to default values
+* Fix: string catalog out of date, localized string typos
+* Fix: loading profile and trophies might cause render loop caused by recursive layout recalculations resulting in app crash
+* Fix: marking already read inbox/announcements messages as read, causes Reddit server to return error 400
+* Fix: inbox list selection passing incorrect identifier, incorrect condition filtering out unread announcements
+* Fix: posts containing URL without host component causing a fatal crash
+* Fix: fetching moderator permissions for user, displaying only eligible actions for posts and comments
+* Fix: compact posts now respect subreddit on top and subreddit icon toggles
+* Fix: triggering scroll-to-comments sometimes skips entire comment section **(needs testing)**
 
 #### New Features
-* Feature: you can now pick if voting buttons for compact posts are displayed on the left or right side by @radblesk
+* Feature: you can now pick if voting buttons for compact posts are displayed on the left or right side by
 
 #### Improvements
-* Improvement: more aggressive disk media caching causing lower memory usage by @radblesk
+* Improvement: more aggressive disk media caching causing lower memory usage
 
 
 **Thanks to everyone who contributed with feedback!**
