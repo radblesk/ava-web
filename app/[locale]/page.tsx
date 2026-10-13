@@ -110,12 +110,19 @@ export default function Home() {
           </p>
         </section>
 
+        <a
+          href="https://testflight.apple.com/join/Ua9VHj99"
+          className="rounded-full border border-sky-500/25 bg-zinc-200/50 px-4 py-2 text-sky-600 transition duration-500 will-change-transform before:absolute before:inset-0 before:z-0 before:rounded-full before:bg-transparent before:shadow-lg before:shadow-sky-600/0 before:transition hover:before:shadow-sky-600/25 motion-safe:hover:-translate-y-1 dark:bg-zinc-900/50 dark:text-sky-400 dark:hover:bg-zinc-900/70 dark:hover:before:shadow-sky-500/20"
+        >
+          Join TestFlight
+        </a>
+
         {/* Compatibility Cards */}
         <section className="flex flex-col justify-center gap-6 text-center">
           <p className="font-semibold tracking-tight text-zinc-600 dark:text-zinc-400">
             {t("compatibility.headline")}
           </p>
-          <div className="relative flex flex-wrap items-center justify-evenly gap-y-4 sm:gap-6">
+          <div className="relative flex flex-wrap items-center justify-evenly gap-4 sm:gap-6">
             {compatibilityCards.map((card, i) => (
               <CompatibilityCard
                 key={i}
