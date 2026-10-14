@@ -1,7 +1,29 @@
 export const latestVersion = "v1.0";
-export const latestBuild = "6";
+export const latestBuild = "7";
 
 export const releaseNotes: Record<string, string> = {
+  "v1.0 (7)": `
+### What's Changed
+#### Fixes
+* Fix: an issue where tapping near post media could accidentally open the media
+* Fix: an issue where tapping near comment media or bottom row could accidentally open the media instead collapsing comment
+* Fix: hiding over 50 posts at once returns bad request error, added sequential batching
+* Fix: incorrect subreddit data returned from Reddit might cause decoding error (observed in search view)
+* Fix: random 500 errors might occur when fetching inbox
+* Fix: quickly opening and closing post prevents it from being marked as seen
+* Some other smaller behind-the-scenes bug fixes and improvements
+
+#### New Features
+* Feature: disable video scrubbing while scrolling to prevent accidental touches
+* Feature: long press on any media to open context menu (works for both, posts and comments)
+* Feature: long press on post to open post options menu (OPTIONAL! If disabled, classic 3-dot menu icon is displayed instead)
+* Feature: increased hit area for comment menu button
+* Feature: multi's toolbar now have a button to display all subreddits in current multi, allowing direct navigation to specific subreddit
+
+#### From Feedback
+* If you have questions about Ava, feel free to join a Discord server. Link can be found in Settings -> About. I get many questions through anonymous feedback, which means, I would love to, but I have no way to reply to you, since you did not attach an email address to the feedback. If you wish to stay anonymous, I respect that. You can use a throwaway email address if you want.
+* Tapping current tab returns to sidebar behavior: this is a default behavior controlled by Apple. In SwiftUI, there is no way around this. I am investigating this request, but no promises yet. I don't want to introduce custom solution that might break iPad or iPhone Duo compatibility, which Ava currently has.
+`,
   "v1.0 (6)": `
   ### What's Changed
 #### Fixes
