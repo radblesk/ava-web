@@ -3,6 +3,7 @@ import { useTranslations } from "next-intl";
 
 // Images Imports
 import rbLogo from "@/public/monogram-dark.svg";
+import discordLogo from "@/public/discord.svg";
 
 export default function Navbar() {
   const t = useTranslations("homepage");
@@ -25,8 +26,23 @@ export default function Navbar() {
         </a>
 
         <div className="flex items-center gap-3">
+          <a
+            href="https://discord.gg/Yh3E2YYrKu"
+            title="Join Ava on Discord"
+            className="mx-2 hover:opacity-75 md:mx-5"
+          >
+            <Image
+              priority={true}
+              src={discordLogo}
+              alt="Discord Logo"
+              width={126.644}
+              height={96}
+              sizes="126px"
+              className="aspect-auto h-4 w-auto dark:invert"
+            />
+          </a>
           <div className="relative h-1.5 w-1.5 rounded-full bg-green-600">
-            <div className="animate-duration-2500! absolute top-1/2 left-1/2 h-2.5 w-2.5 -translate-x-1/2 -translate-y-1/2 rounded-full bg-green-600 motion-safe:animate-ping"></div>
+            <div className="motion-safe:animate-flicker absolute top-1/2 left-1/2 h-2.5 w-2.5 -translate-x-1/2 -translate-y-1/2 rounded-full bg-green-600 blur-sm"></div>
           </div>
           <p className="dark:zinc-400 text-sm text-zinc-600">
             {t("navbar.inDev")}

@@ -2,6 +2,7 @@ import Image from "next/image";
 
 // Media Import
 import bezel from "@/public/bezel-portrait.png";
+import screen from "@/public/comments-screen.webp"
 import { useTranslations } from "next-intl";
 
 export default function FeatureBlock2() {
@@ -13,7 +14,7 @@ export default function FeatureBlock2() {
         <h2 className="text-3xl font-semibold tracking-tight">
           {t("headline")}
         </h2>
-        <p className="leading-8 text-zinc-600 dark:text-zinc-400">
+        <p className="max-w-sm leading-8 text-zinc-600 dark:text-zinc-400">
           {t.rich("description", {
             highlighted: (chunks) => (
               <span className="font-medium text-zinc-950 dark:text-zinc-50">
@@ -21,6 +22,11 @@ export default function FeatureBlock2() {
               </span>
             ),
             br: () => <br></br>,
+            modelAvailabilityLink: (chunks) => (
+              <a href="#modelAvailability" className="font-bold underline">
+                <sup>{chunks}</sup>
+              </a>
+            ),
           })}
         </p>
       </div>
@@ -36,14 +42,15 @@ export default function FeatureBlock2() {
           className="z-10 h-[80vh] max-h-200 w-auto"
         />
         <div className="absolute top-1/2 left-1/2 z-0 aspect-9/16 h-[96%] w-[90%] -translate-1/2 overflow-hidden rounded-[6%]">
-          <video
-            src="/ava-showcase720.webm"
-            autoPlay
-            loop
-            muted
-            playsInline
-            className="h-full w-full object-cover"
-          ></video>
+          <Image
+            loading="lazy"
+            src={screen}
+            alt=""
+            width={1320}
+            height={2868}
+            sizes="(max-width: 640px) 100vw, 565px"
+            className="z-0"
+          />
         </div>
       </div>
     </div>

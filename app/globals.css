@@ -43,6 +43,11 @@ nav {
   padding-left: calc(env(safe-area-inset-left) + 1rem);
 }
 
+.safe-inset-container {
+    padding-right: calc(env(safe-area-inset-right) + 1rem);
+    padding-left: calc(env(safe-area-inset-left) + 1rem);
+}
+
 @keyframes flicker {
   0%,
   19%,

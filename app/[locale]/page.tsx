@@ -22,10 +22,20 @@ import FeatureBlock2 from "@/components/FeatureBlock2";
 import iconDark from "@/public/icon-dark.png";
 import iconLight from "@/public/icon-light.png";
 import FeatureBlock3 from "@/components/FeatureBlock3";
+import testflightButtonSymbol from "@/public/fan.svg";
+import Divider from "@/components/Divider";
+import FeatureBlock4 from "@/components/FeatureBlock4";
+
+// Localization import
+import en from "@/localizations/en.json";
 
 export default function Home() {
   // Translations
   const t = useTranslations("homepage");
+
+  const keys = Object.keys(t.raw("disclaimers")) as Array<
+    keyof typeof en.homepage.disclaimers
+  >;
 
   // Headers
   const headers = [
@@ -106,15 +116,29 @@ export default function Home() {
                   {chunks}
                 </span>
               ),
+              dataCollectionLink: (chunks) => (
+                <a href="#dataCollection" className="font-bold underline">
+                  <sup>{chunks}</sup>
+                </a>
+              ),
             })}
           </p>
         </section>
 
         <a
           href="https://testflight.apple.com/join/Ua9VHj99"
-          className="rounded-full border border-sky-500/25 bg-zinc-200/50 px-4 py-2 text-sky-600 transition duration-500 will-change-transform before:absolute before:inset-0 before:z-0 before:rounded-full before:bg-transparent before:shadow-lg before:shadow-sky-600/0 before:transition hover:before:shadow-sky-600/25 motion-safe:hover:-translate-y-1 dark:bg-zinc-900/50 dark:text-sky-400 dark:hover:bg-zinc-900/70 dark:hover:before:shadow-sky-500/20"
+          className="group flex items-center gap-x-2 rounded-full border border-sky-500/25 bg-sky-200 px-4 py-2 text-lg font-medium text-zinc-950 transition duration-500 will-change-transform before:absolute before:inset-0 before:z-0 before:rounded-full before:bg-transparent before:shadow-lg before:shadow-sky-600/0 before:transition before:duration-500 hover:bg-sky-500 hover:text-zinc-50 hover:before:shadow-sky-600/25 motion-safe:hover:-translate-y-1 dark:bg-sky-950 dark:text-zinc-50 dark:hover:bg-sky-600 dark:hover:before:shadow-sky-500/20"
         >
-          Join TestFlight
+          <Image
+            src={testflightButtonSymbol}
+            alt="Ava Icon"
+            preload={true}
+            width={1000}
+            height={1000}
+            sizes="168px"
+            className="aspect-square h-5 w-auto transition duration-500 group-hover:invert dark:invert"
+          />
+          {t("hero.buttonTitle")}
         </a>
 
         {/* Compatibility Cards */}
@@ -139,7 +163,7 @@ export default function Home() {
         </section>
 
         {/* Divider */}
-        <div className="bg-foreground my-16 h-px w-full mask-x-from-0"></div>
+        <Divider />
 
         {/* Features */}
         <section className="relative flex max-w-screen flex-wrap items-center justify-center gap-32">
@@ -147,11 +171,12 @@ export default function Home() {
 
           <FeatureBlock1 />
           <FeatureBlock2 />
+          <FeatureBlock4 />
           <FeatureBlock3 />
         </section>
 
         {/* Divider */}
-        <div className="bg-foreground my-16 h-px w-full mask-x-from-0"></div>
+        <Divider />
 
         <section className="flex flex-col gap-12">
           {/* Notice */}
@@ -187,6 +212,38 @@ export default function Home() {
               />
             ))}
           </div>
+        </section>
+
+        {/* Divider */}
+        <Divider />
+
+        {/* Disclaimer */}
+        <section className="mx-auto flex w-full max-w-3xl flex-col justify-start gap-4">
+          {keys.map((key) => (
+            <p
+              id={key}
+              key={key}
+              className="text-xs text-pretty text-zinc-600 dark:text-zinc-400"
+            >
+              {t.rich(`disclaimers.${key}`, {
+                highlighted: (chunks) => (
+                  <span className="font-medium text-zinc-950 dark:text-zinc-50">
+                    {chunks}
+                  </span>
+                ),
+                policy: (chunks) => (
+                  // eslint-disable-next-line @next/next/no-html-link-for-pages
+                  <a
+                    href="/privacy"
+                    className="font-bold underline hover:text-orange-600 dark:hover:text-orange-500"
+                  >
+                    {chunks}
+                  </a>
+                ),
+                sup: (chunks) => <sup>{chunks}</sup>,
+              })}
+            </p>
+          ))}
         </section>
       </main>
     </div>

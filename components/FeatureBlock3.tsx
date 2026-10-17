@@ -11,7 +11,7 @@
 import Image from "next/image";
 
 // Media Import
-import bezel from "@/public/ipad-bezel.png";
+import bezel from "@/public/ipad-bezel.webp";
 import screen from "@/public/ipadscreen.webp";
 import { useTranslations } from "next-intl";
 
@@ -24,7 +24,7 @@ export default function FeatureBlock3() {
         <h2 className="text-3xl font-semibold tracking-tight">
           {t("headline")}
         </h2>
-        <p className="leading-8 text-zinc-600 dark:text-zinc-400">
+        <p className="max-w-xl leading-8 text-zinc-600 dark:text-zinc-400">
           {t.rich("description", {
             highlighted: (chunks) => (
               <span className="font-medium text-zinc-950 dark:text-zinc-50">

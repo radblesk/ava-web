@@ -21,11 +21,12 @@
     },
     "hero": {
       "headline": "Ava for Reddit <super>(beta)</super>",
-      "subheadline": "Ava is a <highlighted>fully native Reddit client for iOS</highlighted>, inspired by the <highlighted>best of Apollo</highlighted> and built from the ground up with <highlighted>Swift and SwiftUI</highlighted>. Every detail is handcrafted to feel fast, clean, and <highlighted>unmistakably iOS</highlighted>. Ava focuses on what matters most: speed, privacy, deep customizability, and a polished user experience — <highlighted>without tracking, data collection, or compromises.</highlighted>"
+      "subheadline": "Ava is a <highlighted>fully native Reddit client for iOS</highlighted>, inspired by the <highlighted>best of Apollo</highlighted> and built from the ground up with <highlighted>Swift and SwiftUI</highlighted>. Every detail is handcrafted to feel fast, clean, and <highlighted>unmistakably iOS</highlighted>. Ava focuses on what matters most: speed, privacy, deep customizability, and a polished user experience <highlighted>without tracking, data collection, or compromises<dataCollectionLink>1</dataCollectionLink>.</highlighted>",
+      "buttonTitle": "Join the TestFlight Beta"
     },
     "compatibility": {
       "headline": "Available on:",
-      "atLaunch": "Download on Testflight",
+      "atLaunch": "Download on TestFlight",
       "later": "Later",
       "footer": "Minimum supported version is 26 and newer"
     },
@@ -35,18 +36,22 @@
         "description": "Customize what other apps won't let you touch. Pick your <highlighted>style</highlighted>, tweak post spacing and padding, hide voting buttons if they're in your way. Want subreddit info at the top? Bottom? Done. Switch between <highlighted>full and compact styles</highlighted> whenever you feel like it.<br></br><br></br><highlighted>Filter out the noise:</highlighted> block users completely, filter by keywords in titles or flairs, hide entire subreddits from your feeds. See only what you want to see."
       },
       "feature2": {
-        "headline": "Built Native, Feels Different",
-        "description": "No lag, no waiting—just <highlighted>smooth, instant responses</highlighted> that keep up with how fast you scroll. Everything feels fluid and alive. Generous spacing, bigger media, <highlighted>colored depth indicators</highlighted> so you never lose track of comment threads. Full iPad support with proper split view. It just works the way you'd expect it to. <br></br><br></br><highlighted>iPhone Duo support coming soon.</highlighted>"
+        "headline": "Built for People",
+        "description": "Generous spacing, bigger inline media, <highlighted>colored depth indicators</highlighted> so you never lose track of comment threads. Tap, hold, reply, share as an image or move your floating Skip Comment button. <highlighted>It just works the way you'd expect it to.</highlighted> <br></br><br></br> <highlighted>Missing TL;DR?</highlighted> Ava includes <highlighted>Post Summaries<modelAvailabilityLink>2</modelAvailabilityLink></highlighted> feature leveraging <highlighted>on-device model</highlighted> so you get summaries fast and free while <highlighted>keeping them private!</highlighted>"
       },
       "feature3": {
         "headline": "Designed for iPad",
-        "description": "Not just stretched—<highlighted>properly designed for iPad</highlighted>. A true <highlighted>two-column layout</highlighted> with a sidebar for subreddits and a focused detail view for feeds, posts, and comments. Full <highlighted>Split View and multitasking</highlighted> support, balanced spacing, and scaling that feel native on larger displays. Ava adapts to the canvas, not the other way around."
+        "description": "Not just stretched, <highlighted>properly designed for iPad</highlighted>. A true <highlighted>two-column layout</highlighted> with a sidebar for subreddits and a focused detail view for feeds, posts, and comments. Full <highlighted>adaptive layout</highlighted> support, balanced spacing, and scaling that feel native on larger displays. <highlighted>Ava adapts to the canvas, not the other way around.</highlighted>"
+      },
+      "feature4": {
+        "headline": "Duo Ready",
+        "description": "Fully compatible with your new iPhone Duo. <highlighted>Closed, opened, half-opened, portrait or landscape</highlighted>. Ava just natively adapts to all of them, whether you want <highlighted>compact, content-centric look</highlighted> on your outer display or <highlighted>rich content</highlighted> on your inner display."
       }
     },
     "notice": "Ava is in <bold>active development</bold> and <bold>is not open-source (for now)</bold>. I am currently waiting for a follow-up on my API usage terms request to Reddit. Until then, the <highlighted>TestFlight link stays disabled</highlighted>.",
     "buttons": {
       "testflight": {
-        "title": "TestFlight",
+        "title": "TestFlight Beta",
         "symbol": "fan",
         "link": "https://testflight.apple.com/join/Ua9VHj99",
         "alt": "TestFlight Button",
@@ -73,6 +78,10 @@
         "alt": "Developer Website Button",
         "disabled": "false"
       }
+    },
+    "disclaimers": {
+      "dataCollection": "<sup>1</sup> For development and debug purposes, Ava collects <highlighted>anonymous</highlighted> crash reports and some network failures reports. Data are <highlighted>anonymized before leaving your device</highlighted>, URLs, queries and bodies are stripped from HTTP requests. <highlighted>No Reddit data ever leave your device.</highlighted> More information regarding data collection can be found in <highlighted><policy>Privacy Policy</policy></highlighted>.",
+      "modelAvailability": "<sup>2</sup> Post Summaries are subject to on-device model availability and are only available on devices with Apple Intelligence support."
     },
     "footer": {
       "affiliate": "Ava is an independent third-party client and is not affiliated with, endorsed by, or connected to Reddit, Inc.",
