@@ -72,10 +72,10 @@
         "disabled": "false"
       },
       "developer": {
-        "title": "Developer",
-        "symbol": "monogram-dark",
-        "link": "https://www.radobley.sk",
-        "alt": "Developer Website Button",
+        "title": "Buy me a Coffee",
+        "symbol": "coffee-icon",
+        "link": "https://donate.stripe.com/3cI4gAc0HfDP60D8hZ5gc00",
+        "alt": "Donate Button",
         "disabled": "false"
       }
     },
