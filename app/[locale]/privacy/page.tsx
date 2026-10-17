@@ -4,7 +4,7 @@ import remarkGfm from "remark-gfm";
 
 export default async function Page() {
   return (
-    <article className="prose dark:prose-invert mx-auto max-w-6xl p-10">
+    <article className="prose safe-inset-container dark:prose-invert mx-auto max-w-6xl py-10">
       <ReactMarkdown
         remarkPlugins={[remarkGfm]}
         components={{

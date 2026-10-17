@@ -6,7 +6,7 @@ import remarkGfm from "remark-gfm";
 export default function Page() {
   const t = useTranslations("releaseNotes");
   return (
-    <div className="mx-auto max-w-6xl p-10">
+    <div className="mx-auto safe-inset-container max-w-6xl p-10">
       <h1 className="text-3xl font-bold md:text-4xl">{t("header")}</h1>
 
       <div className="bg-foreground my-12 h-px w-full mask-x-from-0 sm:my-16"></div>
@@ -14,7 +14,7 @@ export default function Page() {
       {Object.entries(releaseNotes).map(
         ([version, changelog], index, entries) => (
           <div key={version}>
-            <div className="grid grid-cols-1 gap-y-6 md:grid-cols-[200px_minmax(900px,1fr)_100px]">
+            <div className="grid grid-cols-1 gap-y-6 md:grid-cols-[200px_minmax(0,1fr)]">
               <h2 className="text-2xl md:text-2xl">{version}</h2>
 
               <article key={version} className="prose dark:prose-invert">
