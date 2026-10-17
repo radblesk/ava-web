@@ -1,7 +1,37 @@
 export const latestVersion = "v1.0";
-export const latestBuild = "7";
+export const latestBuild = "8";
 
 export const releaseNotes: Record<string, string> = {
+  "v1.0 (8)": `
+### What's Changed
+#### Fixes
+* Fix: link hit areas was still overlapping causing accidental link taps
+* Fix: issue in build 7 where long press on media prevents videos from being opened in fullscreen
+* Fix: unavailable media label now only shows icon for compact posts
+* Fix: crosspost in compact posts might be unclickable 
+* Fix: compact post media overlay might prevent media tap gesture 
+* Fix: oversized link media might increase hit area 
+* Fix: soft line breaks are ignored by Ava's custom markdown renderer, causing single "enter" to render on the same line 
+* Potential Fix: opening videos fullscreen may sometimes result in undismissable blank screen and app restart is needed 
+* Fix: add/remove friend results in error 403 
+* Fix: smaller behind-the-scenes bug fixes and improvements
+
+#### New Features
+* Feature: added option to hide post voting buttons 
+* Feature: compact posts media overlay are now smaller in the right bottom corner, rather than covering media in the middle 
+* Feature: added stepper to change title line limit for compact posts 
+* Feature: added picker for compact posts thumbnail size (default, bigger) 
+* Feature: added long press to open context menu for galleries in compact posts 
+* Feature: videos in compact posts now also have long press to open context menu like other media 
+* Feature: added RedGifs indicator for compact posts thumbnail 
+* Feature: add skip comment button with editable position (left, middle, right) 
+* Feature: added nested lists support to Ava's custom markdown renderer 
+* Feature: added divider support to Ava's custom markdown renderer 
+* Feature: added tables support for Ava's custom markdown renderer 
+
+#### Debug
+* Debug: added automatic error reporting while fetching trending subreddits to help investigate and fix 'Invalid Response' errors while fetching them
+  `,
   "v1.0 (7)": `
 ### What's Changed
 #### Fixes
