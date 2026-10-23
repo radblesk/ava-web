@@ -2,6 +2,33 @@ export const latestVersion = "v1.0";
 export const latestBuild = "8";
 
 export const releaseNotes: Record<string, string> = {
+  "v1.0 (10)": `
+### Performance & Reliability Update
+This update focuses on making Ava faster, smoother and more reliable. It brings improved media performance, clearer error messages, major stability improvements and fixes for features affected by recent Reddit API changes.
+
+### What's Changed
+#### Fixes
+* Fix: resolved issues preventing additional comments from loading
+  * Note: this fix needs further testing to confirm long-term reliability
+* Fix: restored Trending Subreddits in the Search tab after Reddit API changes caused it to stop working
+  * Note: this fix needs further testing to confirm long-term reliability
+* Fix: user profiles, multireddits and search results now correctly scroll back to the top when changing sort order
+* Fix: cancelled requests no longer display unnecessary error notifications
+* Fix: error notifications no longer display raw HTML responses or technical decoding errors
+* Fix: Add/Remove Friend button is now only available to Reddit Premium users, matching Reddit's behavior
+* Fix: various smaller bugs and stability issues
+
+#### Improvements
+* Improvement: completely reworked error and response handling for more reliable operation
+* Improvement: error notifications now provide clearer, more user-friendly explanations
+* Improvement: improved automatic error reporting to help identify and resolve issues more accurately
+* Improvement: improved media caching, prefetching, processing and playback for smoother scrolling and faster media loading
+* Improvement: various behind-the-scenes performance and reliability improvements
+`,
+  "v1.0 (9)": `
+  ### Hotfix Update
+This update removes trending subreddits grid from Search tab after Reddit API changes caused it to stop working.
+  `,
   "v1.0 (8)": `
 ### What's Changed
 #### Fixes
